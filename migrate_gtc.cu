@@ -6,7 +6,7 @@ kernel(int *array, int N)
 {
 	int index = blockIdx.x * blockDim.x + threadIdx.x;
 	int stride = blockDim.x * gridDim.x;
-	for (int i = index; i < n; i += stride)
+	for (int i = index; i < N; i += stride)
 		array[i] = i;
 }
 
