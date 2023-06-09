@@ -1,21 +1,19 @@
 #include <iostream>
 #include <math.h>
-// Kernel function to add the elements of two arrays
-__global__
+
+// function to add the elements of two arrays
 void add(int n, float *x, float *y)
 {
   for (int i = 0; i < n; i++)
-    y[i] = x[i] + y[i];
+      y[i] = x[i] + y[i];
 }
 
 int main(void)
 {
-  int N = 1<<20;
-  float *x, *y;
+  int N = 1<<20; // 1M elements
 
-  // Allocate Unified Memory – accessible from CPU or GPU
-  cudaMallocManaged(&x, N*sizeof(float));
-  cudaMallocManaged(&y, N*sizeof(float));
+  float *x = new float[N];
+  float *y = new float[N];
 
   // initialize x and y arrays on the host
   for (int i = 0; i < N; i++) {
@@ -23,11 +21,13 @@ int main(void)
     y[i] = 2.0f;
   }
 
-  // Run kernel on 1M elements on the GPU
-  add<<<1, 1>>>(N, x, y);
+  float sum = 0.0f;
+  for (int i = 0; i < N; i++)
+    sum += x[i] + y[i];
+  std::cout << "Sum: " << sum << std::endl;
 
-  // Wait for GPU to finish before accessing on host
-  cudaDeviceSynchronize();
+  // Run kernel on 1M elements on the CPU
+  add(N, x, y);
 
   // Check for errors (all values should be 3.0f)
   float maxError = 0.0f;
@@ -36,8 +36,8 @@ int main(void)
   std::cout << "Max error: " << maxError << std::endl;
 
   // Free memory
-  cudaFree(x);
-  cudaFree(y);
-  
+  delete [] x;
+  delete [] y;
+
   return 0;
 }
