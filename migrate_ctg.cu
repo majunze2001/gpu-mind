@@ -7,7 +7,7 @@ kernel(int *array, int N)
 	int index = blockIdx.x * blockDim.x + threadIdx.x;
 	int stride = blockDim.x * gridDim.x;
 	for (int i = index; i < N; i += stride)
-		array[i] = i;
+		array[i] += i;
 }
 
 int
@@ -23,7 +23,11 @@ main(void)
 	int threadsPerBlock = 256;
 	int blocksPerGrid = (N + threadsPerBlock - 1) / threadsPerBlock;
 
-	// Launch kernel to initialize data, so the data will be on GPU
+	// Initialize data, so the data will be on CPU
+	for (int i = index; i < N; i ++)
+		array[i] = i;
+
+	// Launch kernel, this should pagefault, causing a page migration from CPU to GPU
 	kernel<<<blocksPerGrid, threadsPerBlock>>>(data, N);
 
     cudaError_t err = cudaGetLastError();
@@ -33,11 +37,11 @@ main(void)
 	// Wait for GPU to finish before accessing on host
 	cudaDeviceSynchronize();
 
-	// Check for errors (all values should be i)
-	// now on CPU -- show pagefault, causing a page migration from GPU to CPU
+	// a migration from GPU back to CPU
+	// Check for errors (all values should be 2i)
 	for (int i = 0; i < N; i++)
 	{
-		if (data[i] != i)
+		if (data[i] != 2 * i)
 		{
 			std::cout << "Error: data[" << i << "] = " << data[i] << "\n";
 			return -1;
