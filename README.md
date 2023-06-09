@@ -69,6 +69,9 @@ sudo dmesg -c
 
 
 sed -n '137832,394220p' tracing > uvm_tracing
+
+awk '/uvm/{flag=1} flag; /uvm/{mark=1} END{if(mark) print}' tracing > uvm_tracing2
+
 ```
 
 
