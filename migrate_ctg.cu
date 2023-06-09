@@ -25,7 +25,7 @@ main(void)
 
 	// Initialize data, so the data will be on CPU
 	for (int i = index; i < N; i ++)
-		array[i] = i;
+		data[i] = i;
 
 	// Launch kernel, this should pagefault, causing a page migration from CPU to GPU
 	kernel<<<blocksPerGrid, threadsPerBlock>>>(data, N);
