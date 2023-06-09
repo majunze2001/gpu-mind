@@ -26,9 +26,9 @@ main(void)
 	// Launch kernel to initialize data, so the data will be on GPU
 	kernel<<<blocksPerGrid, threadsPerBlock>>>(data, N);
 
-    cudaError_t err = cudaGetLastError();
-    if (err != cudaSuccess)
-        printf("Error: %s\n", cudaGetErrorString(err));
+    // cudaError_t err = cudaGetLastError();
+    // if (err != cudaSuccess)
+    //     printf("Error: %s\n", cudaGetErrorString(err));
 
 	// Wait for GPU to finish before accessing on host
 	cudaDeviceSynchronize();
