@@ -68,6 +68,7 @@ sudo nvidia-xconfig
 sudo dmesg -c
 
 
+sed -n '137832,394220p' tracing > uvm_tracing
 ```
 
 

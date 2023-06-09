@@ -14,14 +14,20 @@ int main(void)
     int N = 1 << 20;
     int *data;
     cudaMallocManaged(&data, N*sizeof(int));
+    // the devices of compute capability 6.x and greater do not allocate physical memory when calling cudaMallocManaged(): 
+    // in this case physical memory is populated on first touch and may be resident on the CPU or the GPU. 
 
-    // Launch kernel to initialize data - this will page fault
-    kernel<<<1, 256>>>(data, N);
+    int threadsPerBlock = 256;
+    int blocksPerGrid = (N + threadsPerBlock - 1) / threadsPerBlock;
+
+    // Launch kernel to initialize data, so the data will be on GPU
+    kernel<<<blocksPerGrid, threadsPerBlock>>>(data, N);
 
     // Wait for GPU to finish before accessing on host
     cudaDeviceSynchronize();
 
     // Check for errors (all values should be i)
+    // now on CPU -- show pagefault, causing a page migration from GPU to CPU
     for (int i = 0; i < N; i++) {
         if (data[i] != i) {
             std::cout << "Error: data[" << i << "] = " << data[i] << "\n";
