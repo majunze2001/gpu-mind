@@ -24,7 +24,7 @@ main(void)
 	int blocksPerGrid = (N + threadsPerBlock - 1) / threadsPerBlock;
 
 	// Initialize data, so the data will be on CPU
-	for (int i = index; i < N; i ++)
+	for (int i = 0; i < N; i ++)
 		data[i] = i;
 
 	// Launch kernel, this should pagefault, causing a page migration from CPU to GPU
