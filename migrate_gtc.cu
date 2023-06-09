@@ -8,6 +8,7 @@ kernel(int *array, int N)
 	int stride = blockDim.x * gridDim.x;
 	for (int i = index; i < N; i += stride)
 		array[i] = i;
+    __syncthreads();
 }
 
 int
