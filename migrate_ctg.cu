@@ -1,7 +1,7 @@
 #include <cuda_runtime.h>
 #include <iostream>
-#include <limits>
-#include <unistd.h>
+// #include <limits>
+// #include <unistd.h>
 
 __global__ void
 kernel(int *array, int N)
@@ -15,8 +15,8 @@ kernel(int *array, int N)
 int
 main(void)
 {
-	std::cout << "Current PID: " << getpid() << std::endl;
-	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+	// std::cout << "Current PID: " << getpid() << std::endl;
+	// std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	int N = 1 << 10;
     // 1k ints ~ 2 KB -- 1 page at most
 	int *data;
@@ -34,10 +34,6 @@ main(void)
 	// Launch kernel, this should pagefault, causing a page migration from CPU to GPU
 	kernel<<<blocksPerGrid, threadsPerBlock>>>(data, N);
 
-    // cudaError_t err = cudaGetLastError();
-    // if (err != cudaSuccess)
-    //     printf("Error: %s\n", cudaGetErrorString(err));
-
 	// Wait for GPU to finish before accessing on host
 	cudaDeviceSynchronize();
 
@@ -53,7 +49,7 @@ main(void)
 	// 	}
 	// }
 	
-	// std::cout << "Correct!\n";
+	std::cout << "Done!\n";
 
 	// Free memory
 	cudaFree(data);

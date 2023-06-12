@@ -78,3 +78,14 @@ awk '/uvm/{flag=1} flag; /uvm/{mark=1} END{if(mark) print}' tracing > uvm_tracin
 
 on Ubuntu 18.04.4 LTS through cli
 
+```bash
+mount | grep tracefs
+cd /sys/kernel/debug/tracing
+echo 23107 > set_ftrace_pid
+
+# add a filtered function to be skipped
+# pci_get_dev_by_id
+echo 'pci_get_dev_by_id' | sudo tee -a set_ftrace_notrace
+echo 'kmem_cache_free' | sudo tee -a set_ftrace_notrace
+
+```
