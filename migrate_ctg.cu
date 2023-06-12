@@ -38,16 +38,16 @@ main(void)
 	cudaDeviceSynchronize();
 
 	// Correctness verification, comment out for shorter trace output
-	// // a migration from GPU back to CPU
-	// // Check for errors (all values should be 2i)
-	// for (int i = 0; i < N; i++)
-	// {
-	// 	if (data[i] != 2 * i)
-	// 	{
-	// 		std::cout << "Error: data[" << i << "] = " << data[i] << "\n";
-	// 		return -1;
-	// 	}
-	// }
+	// a migration from GPU back to CPU
+	// Check for errors (all values should be 2i)
+	for (int i = 0; i < N; i++)
+	{
+		if (data[i] != 2 * i)
+		{
+			std::cout << "Error: data[" << i << "] = " << data[i] << "\n";
+			return -1;
+		}
+	}
 	
 	std::cout << "Done!\n";
 
