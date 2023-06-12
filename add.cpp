@@ -1,5 +1,6 @@
 #include <iostream>
 #include <math.h>
+#include <unistd.h>
 
 // function to add the elements of two arrays
 void add(int n, float *x, float *y)
@@ -10,6 +11,9 @@ void add(int n, float *x, float *y)
 
 int main(void)
 {
+  char c;
+  std::cout << "Current PID: " << getpid() << std::endl;
+  std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
   int N = 1<<20; // 1M elements
 
   float *x = new float[N];

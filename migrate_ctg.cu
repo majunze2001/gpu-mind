@@ -1,5 +1,6 @@
 #include <cuda_runtime.h>
 #include <iostream>
+#include <unistd.h>
 
 __global__ void
 kernel(int *array, int N)
@@ -13,6 +14,8 @@ kernel(int *array, int N)
 int
 main(void)
 {
+	std::cout << "Current PID: " << getpid() << std::endl;
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	int N = 1 << 10;
     // 1k ints ~ 2 KB -- 1 page at most
 	int *data;
@@ -23,7 +26,7 @@ main(void)
 	int threadsPerBlock = 256;
 	int blocksPerGrid = (N + threadsPerBlock - 1) / threadsPerBlock;
 
-	// Initialize data, so the data will be on CPU
+	// Initialize data, so the should be on CPU
 	for (int i = 0; i < N; i ++)
 		data[i] = i;
 
