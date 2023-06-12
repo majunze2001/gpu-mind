@@ -1,5 +1,6 @@
 #include <cuda_runtime.h>
 #include <iostream>
+#include <limits>
 #include <unistd.h>
 
 __global__ void
