@@ -5,6 +5,7 @@
 [301958.568814] nvidia-uvm: uvm_api_pageable_mem_access
 [301961.027240] nvidia-uvm: uvm_mmap
 [301961.067576] nvidia-uvm: uvm_mmap
+--------------------------- for loop ---------------------
 [301961.067601] nvidia-uvm: uvm_vm_fault
 [301961.067602] nvidia-uvm: uvm_va_space_cpu_fault: 7f9b9a000000
 [301961.067605] nvidia-uvm: uvm_va_block_create: [7f9b9a000000-7f9b9a1fffff]
@@ -16,6 +17,8 @@
 [301961.067630] nvidia-uvm: uvm_va_block_service_copy processor_id:0, new_residency:0 
 [301961.067631] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:0 block [7f9b9a000000-7f9b9a1fffff].
 [301961.067748] nvidia-uvm: block_copy_resident_pages dst_id:0.
+--------------------------- end for loop ---------------------
+--------------------------- kernel function ---------------------
 [301961.067887] nvidia-uvm: uvm_va_block_select_residency processor_id: 1
 [301961.067890] nvidia-uvm: uvm_va_block_select_residency return id: 1
 [301961.067893] nvidia-uvm: uvm_va_block_service_locked processor_id: 1, block: [7f9b9a000000-7f9b9a1fffff].
@@ -24,6 +27,8 @@
 [301961.068252] nvidia-uvm: block_copy_resident_pages dst_id:1.
 [301961.068254] nvidia-uvm: for_each_closest_id: src_id=0, dst_id=1
 [301961.068255] nvidia-uvm: block_copy_resident_pages_between: from 0 to 1.
+--------------------------- end kernel function ---------------------
+--------------------------- second for loop ---------------------
 [301961.068336] nvidia-uvm: uvm_vm_fault
 [301961.068337] nvidia-uvm: uvm_va_space_cpu_fault: 7f9b9a000000
 [301961.068341] nvidia-uvm: uvm_va_block_cpu_fault: 7f9b9a000000. block [7f9b9a000000-7f9b9a1fffff]
