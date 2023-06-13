@@ -15,6 +15,7 @@ echo 'uvm_va_space_can_read_duplicate' | sudo tee -a set_ftrace_notrace
 echo 'grow_fault_granularity_if_no_thrashing' | sudo tee -a set_ftrace_notrace
 echo 'uvm_va_policy_is_read_duplicate' | sudo tee -a set_ftrace_notrace
 echo 'block_region_authorized_processors' | sudo tee -a set_ftrace_notrace
+echo 'uvm_perf_prefetch_bitmap_tree_iter_get_count' | sudo tee -a set_ftrace_notrace
 
 # gtc
 # sudo dmesg -c
@@ -31,9 +32,10 @@ echo 'block_region_authorized_processors' | sudo tee -a set_ftrace_notrace
 # ctg
 sudo dmesg -c
 echo "" > trace
-echo 1 > tracing_on
-/home/sslee/gpu-mind/ctg.o > /home/sslee/gpu-mind/ctg.out
-echo 0 > tracing_on
+/home/sslee/gpu-mind/ctg.o & pidof ctg.o > set_ftrace_pid
+# echo 1 > tracing_on
+# /home/sslee/gpu-mind/ctg.o > /home/sslee/gpu-mind/ctg.out
+# echo 0 > tracing_on
 sudo rm /home/sslee/gpu-mind/ctg.printk
 sudo dmesg > /home/sslee/gpu-mind/ctg.printk
 sudo rm /home/sslee/gpu-mind/ctg.tracing

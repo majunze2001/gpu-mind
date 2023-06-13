@@ -1,6 +1,6 @@
 
 // The start --> memory mapping
-SyS_mmap() -> do_mmap() -> uvm_mmap_entry()
+SyS_mmap() -> do_mmap() -> uvm_mmap_entry() -> uvm_mmap() -> uvm_va_range_create_mmap()
 
 
 
