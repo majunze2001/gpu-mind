@@ -1,0 +1,40 @@
+ 16)               |      replayable_faults_isr_bottom_half_entry [nvidia_uvm]() {
+ 16)   0.480 us    |        uvm_thread_context_wrapper_is_used [nvidia_uvm]();
+ 16)               |        uvm_thread_context_add [nvidia_uvm]() {
+ 16)   0.050 us    |          thread_context_non_interrupt_table_entry [nvidia_uvm]();
+ 16)               |          thread_context_non_interrupt_add [nvidia_uvm]() {
+ 16)   0.050 us    |            _raw_spin_lock_irqsave();
+ 16)   0.050 us    |            _raw_spin_unlock_irqrestore();
+ 16)   0.860 us    |          }
+ 16)   1.630 us    |        }
+ 16)               |        replayable_faults_isr_bottom_half [nvidia_uvm]() {
+ 16)   0.530 us    |          find_first_valid_gpu [nvidia_uvm]();
+ 16)               |          uvm_gpu_service_replayable_faults [nvidia_uvm]() {
+ 16)               |            fetch_fault_buffer_entries.isra.25 [nvidia_uvm]() {
+ 16)   1.850 us    |              uvm_hal_volta_fault_buffer_read_put [nvidia_uvm]();
+ 16)               |              uvm_hal_pascal_fault_buffer_entry_is_valid [nvidia_uvm]() {
+ 16)               |                uvm_parent_gpu_replayable_fault_buffer_is_uvm_owned [nvidia_uvm]() {
+ 16)   0.200 us    |                  uvm_conf_computing_mode_enabled_parent [nvidia_uvm]();
+ 16)   0.600 us    |                }
+ 16)   1.680 us    |              }
+ 16)               |              uvm_hal_volta_fault_buffer_parse_entry [nvidia_uvm]() {
+ 16)               |                parse_fault_entry_common [nvidia_uvm]() {
+ 16)               |                  uvm_parent_gpu_canonical_address [nvidia_uvm]() {
+ 16)   0.200 us    |                    uvm_hal_mmu_mode_ampere [nvidia_uvm]();
+ 16)   0.050 us    |                    num_va_bits_pascal [nvidia_uvm]();
+ 16)   1.410 us    |                  }
+ 16)   0.360 us    |                  uvm_hal_volta_fault_buffer_get_fault_type [nvidia_uvm]();
+ 16)   0.190 us    |                  uvm_hal_ampere_mmu_client_id_to_utlb_id [nvidia_uvm]();
+ 16)   0.050 us    |                  uvm_hal_ampere_mmu_engine_id_to_type [nvidia_uvm]();
+ 16)   0.040 us    |                  uvm_hal_volta_fault_buffer_get_ve_id [nvidia_uvm]();
+ 16)   4.280 us    |                }
+ 16)               |                uvm_hal_pascal_fault_buffer_entry_clear_valid [nvidia_uvm]() {
+ 16)               |                  uvm_parent_gpu_replayable_fault_buffer_is_uvm_owned [nvidia_uvm]() {
+ 16)   0.050 us    |                    uvm_conf_computing_mode_enabled_parent [nvidia_uvm]();
+ 16)   0.370 us    |                  }
+ 16)   0.690 us    |                }
+ 16)   5.760 us    |              }
+ 16)               |              uvm_hal_pascal_fault_buffer_entry_is_valid [nvidia_uvm]() {
+ 16)               |                uvm_parent_gpu_replayable_fault_buffer_is_uvm_owned [nvidia_uvm]() {
+ 16)   0.050 us    |                  uvm_conf_computing_mode_enabled_parent [nvidia_uvm]();
+                                                                                             

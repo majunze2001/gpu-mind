@@ -1,0 +1,11 @@
+  1)               |                                    block_copy_push [nvidia_uvm]() {
+  1)   0.050 us    |                                      block_copy_get_address [nvidia_uvm]();
+  1)   0.050 us    |                                      block_copy_get_address [nvidia_uvm]();
+  1)               |                                      uvm_hal_volta_ce_memcopy [nvidia_uvm]() {
+  1)   0.040 us    |                                        uvm_hal_maxwell_ce_memcopy_copy_type [nvidia_uvm]();
+  1)   0.050 us    |                                        uvm_hal_ce_memcopy_patch_src_stub [nvidia_uvm]();
+  1)   0.080 us    |                                        uvm_hal_ampere_ce_phys_mode [nvidia_uvm]();
+  1)   0.040 us    |                                        uvm_hal_ampere_ce_plc_mode_c7b5 [nvidia_uvm]();
+  1)   0.060 us    |                                        uvm_hal_pascal_ce_offset_in_out [nvidia_uvm]();
+  1)   1.880 us    |                                      }
+  1)   2.930 us    |                                    }
