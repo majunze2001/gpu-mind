@@ -1,3 +1,6 @@
+# add skipped functions
+echo 'do_idle' | sudo tee -a set_ftrace_notrace
+echo 'cpu_idle_poll' | sudo tee -a set_ftrace_notrace
 
 # gtc
 # sudo dmesg -c
@@ -20,8 +23,8 @@ echo 0 > tracing_on
 sudo rm /home/sslee/gpu-mind/ctg.printk
 sudo dmesg > /home/sslee/gpu-mind/ctg.printk
 sudo rm /home/sslee/gpu-mind/ctg.tracing
-cp /sys/kernel/debug/tracing/trace /home/sslee/gpu-mind/ctg.tracing
+sudo cp /sys/kernel/debug/tracing/trace /home/sslee/gpu-mind/ctg.tracing
 sudo rm /home/sslee/gpu-mind/uvm_ctg_tracing
 start=$(grep -n 'uvm' /home/sslee/gpu-mind/ctg.tracing | head -n 1 | cut -d: -f1)
 end=$(grep -n 'uvm' /home/sslee/gpu-mind/ctg.tracing | tail -n 1 | cut -d: -f1)
-sed -n "${start},${end}p" /home/sslee/gpu-mind/ctg.tracing > /home/sslee/gpu-mind/uvm_ctg_tracing
+sudo sed -n "${start},${end}p" /home/sslee/gpu-mind/ctg.tracing > /home/sslee/gpu-mind/uvm_ctg_tracing
