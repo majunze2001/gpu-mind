@@ -32,16 +32,16 @@ echo 'uvm_perf_prefetch_bitmap_tree_iter_get_count' | sudo tee -a set_ftrace_not
 # ctg
 sudo dmesg -c
 echo "" > trace
-/home/sslee/gpu-mind/ctg.o & pidof ctg.o > set_ftrace_pid
-# echo 1 > tracing_on
-# /home/sslee/gpu-mind/ctg.o > /home/sslee/gpu-mind/ctg.out
-# echo 0 > tracing_on
+# /home/sslee/gpu-mind/ctg.o & pidof ctg.o > set_ftrace_pid
+echo 1 > tracing_on
+/home/sslee/gpu-mind/ctg.o > /home/sslee/gpu-mind/ctg.out
+echo 0 > tracing_on
 sudo rm /home/sslee/gpu-mind/ctg.printk
 sudo dmesg > /home/sslee/gpu-mind/ctg.printk
 sudo rm /home/sslee/gpu-mind/ctg.tracing
 sudo cp /sys/kernel/debug/tracing/trace /home/sslee/gpu-mind/ctg.tracing
 sudo rm /home/sslee/gpu-mind/uvm_ctg_tracing
 # start=$(grep -n 'uvm' /home/sslee/gpu-mind/ctg.tracing | head -n 2 | tail -n 1 | cut -d: -f1)
-start=$(grep -n 'uvm_mmap_entry' /home/sslee/gpu-mind/ctg.tracing | head -n 1 | cut -d: -f1)
-end=$(grep -n 'uvm' /home/sslee/gpu-mind/ctg.tracing | tail -n 1 | cut -d: -f1)
-sudo sed -n "${start},${end}p" /home/sslee/gpu-mind/ctg.tracing > /home/sslee/gpu-mind/uvm_ctg_tracing
+start=$(grep -n 'uvm_mmap_entry' trace | head -n 1 | cut -d: -f1)
+end=$(grep -n 'uvm' trace | tail -n 1 | cut -d: -f1)
+sudo sed -n "${start},${end}p" trace > /home/sslee/gpu-mind/uvm_ctg_tracing
