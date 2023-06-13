@@ -1,6 +1,5 @@
 #include <cuda_runtime.h>
 #include <iostream>
-#include <linux/printk.h> // for ordering
 // #include <limits>
 // #include <unistd.h>
 
@@ -32,14 +31,12 @@ main(void)
 	for (int i = 0; i < N; i ++)
 		data[i] = i;
 
-	pr_info("Init done");
 	// Launch kernel, this should pagefault, causing a page migration from CPU to GPU
 	kernel<<<blocksPerGrid, threadsPerBlock>>>(data, N);
 
 	// Wait for GPU to finish before accessing on host
 	cudaDeviceSynchronize();
-
-	pr_info("GPU compute done");
+	
 	// Correctness verification, comment out for shorter trace output
 	// a migration from GPU back to CPU
 	// Check for errors (all values should be 2i)

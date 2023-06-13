@@ -19,7 +19,7 @@ echo 1 > tracing_on
 echo 0 > tracing_on
 sudo rm /home/sslee/gpu-mind/ctg.printk
 sudo dmesg > /home/sslee/gpu-mind/ctg.printk
-# cp /sys/kernel/debug/tracing/trace /home/sslee/gpu-mind/ctg.tracing
-# start=$(grep -n 'uvm' /home/sslee/gpu-mind/ctg.tracing | head -n 1 | cut -d: -f1)
-# end=$(grep -n 'uvm' /home/sslee/gpu-mind/ctg.tracing | tail -n 1 | cut -d: -f1)
-# sed -n "${start},${end}p" /home/sslee/gpu-mind/ctg.tracing > /home/sslee/gpu-mind/uvm_ctg_tracing
+cp /sys/kernel/debug/tracing/trace /home/sslee/gpu-mind/ctg.tracing
+start=$(grep -n 'uvm' /home/sslee/gpu-mind/ctg.tracing | head -n 1 | cut -d: -f1)
+end=$(grep -n 'uvm' /home/sslee/gpu-mind/ctg.tracing | tail -n 1 | cut -d: -f1)
+sed -n "${start},${end}p" /home/sslee/gpu-mind/ctg.tracing > /home/sslee/gpu-mind/uvm_ctg_tracing
