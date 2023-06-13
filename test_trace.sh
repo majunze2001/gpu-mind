@@ -42,6 +42,6 @@ sudo rm /home/sslee/gpu-mind/ctg.tracing
 sudo cp /sys/kernel/debug/tracing/trace /home/sslee/gpu-mind/ctg.tracing
 sudo rm /home/sslee/gpu-mind/uvm_ctg_tracing
 # start=$(grep -n 'uvm' /home/sslee/gpu-mind/ctg.tracing | head -n 2 | tail -n 1 | cut -d: -f1)
-start=$(grep -n 'uvm_mmap_entry' trace | head -n 1 | cut -d: -f1)
+start=$(grep -n 'uvm' trace | head -n 1 | cut -d: -f1)
 end=$(grep -n 'uvm' trace | tail -n 1 | cut -d: -f1)
 sudo sed -n "${start},${end}p" trace > /home/sslee/gpu-mind/uvm_ctg_tracing
