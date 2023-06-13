@@ -1,0 +1,213 @@
+[347219.860024] nvidia-uvm: uvm_open is called from 15703: ctg.o.
+[347219.860065] nvidia-uvm: uvm_open is called from 15703: ctg.o.
+[347219.860092] nvidia-uvm: uvm_api_initialize
+[347219.860182] nvidia-uvm: uvm_api_mm_initialize
+[347219.860191] nvidia-uvm: uvm_api_pageable_mem_access
+[347222.670952] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120700004 to 6804000
+[347222.676112] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120800054 to 6804010
+[347222.676368] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120900004 to 6805000
+[347222.677059] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120b00004 to 6807000
+[347222.677544] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120c00004 to 6807100
+[347222.678249] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120e00004 to 6809100
+[347222.681657] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120f00004 to 6804020
+[347222.826533] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000007c to 6804030
+[347222.826606] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000154 to 6804040
+[347222.826678] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000022c to 6804050
+[347222.826750] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000304 to 6804060
+[347222.826821] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200003dc to 6804070
+[347222.826892] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200004b4 to 6804080
+[347222.827016] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000058c to 6804090
+[347222.827088] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000664 to 68040a0
+[347222.827160] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000073c to 68040b0
+[347222.827232] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000814 to 68040c0
+[347222.827304] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200008ec to 68040d0
+[347222.827376] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200009c4 to 68040e0
+[347222.827447] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000a9c to 68040f0
+[347222.827519] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000b74 to 6804100
+[347222.827590] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000c4c to 6804110
+[347222.827661] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000d24 to 6804120
+[347222.827732] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000dfc to 6804130
+[347222.827804] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000ed4 to 6804140
+[347222.827875] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000fac to 6804150
+[347222.827946] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120001084 to 6804160
+[347222.828017] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000115c to 6804170
+[347222.828088] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120001234 to 6804180
+[347222.828249] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000130c to 6804190
+[347222.828321] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200013e4 to 68041a0
+[347222.832467] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000146c to 680a000
+[347222.832510] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200024d0 to 680b000
+[347222.832552] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120003534 to 680c000
+[347222.832594] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120004598 to 680d000
+[347222.832636] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200055fc to 680e000
+[347222.832679] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120006660 to 680f000
+[347222.832721] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200076c4 to 6810000
+[347222.832763] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120008728 to 6811000
+[347222.832806] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000978c to 6812000
+[347222.832848] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000a7f0 to 6813000
+[347222.832890] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000b854 to 6814000
+[347222.832932] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000c8b8 to 6815000
+[347222.832974] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000d91c to 6816000
+[347222.833016] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000e980 to 6817000
+[347222.833058] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000f9e4 to 6818000
+[347222.833101] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120010a48 to 6819000
+[347222.833143] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120011aac to 681a000
+[347222.833185] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120012b10 to 681b000
+[347222.833227] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120013b74 to 681c000
+[347222.833269] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120014bd8 to 681d000
+[347222.833366] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120015c3c to 681e000
+[347222.833411] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120016ca0 to 681f000
+[347222.833453] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120017d04 to 6820000
+[347222.833496] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120018d68 to 6821000
+[347222.842134] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120019e30 to 6804230
+[347222.842390] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120019eb8 to 6822000
+[347222.847569] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001af80 to 6804240
+[347222.847822] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001b008 to 6823000
+[347222.871889] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c080 to 68041b0
+[347222.872022] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c198 to 6804200
+[347222.872120] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c220 to 6824000
+[347222.872227] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c2d8 to 6824040
+[347222.872334] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c358 to 6824048
+[347222.872438] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c410 to 6824088
+[347222.872544] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c498 to 6824098
+[347222.872623] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c5a0 to 6804200
+[347222.872694] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c678 to 6804210
+[347222.872896] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c700 to 6825d80
+[347222.872939] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c9e4 to 6826000
+[347222.873045] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d304 to 68268a8
+[347222.873154] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d394 to 68268c0
+[347222.873262] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d48c to 6826940
+[347222.930311] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d52c to 6809110
+[347222.932593] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d6a0 to 6829000
+[347222.933790] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d7c4 to 682a000
+[347222.933875] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001e88c to 6804250
+[347222.935018] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001e914 to 682b000
+[347222.935079] nvidia-uvm: uvm_mmap
+[347222.941479] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001f9dc to 6804260
+[347222.941735] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001fa64 to 682c000
+[347222.949204] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120020b2c to 6809120
+[347222.949512] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120020bb4 to 682d000
+[347222.962203] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120021c7c to 6809130
+[347222.962457] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120021d04 to 682e000
+[347222.962912] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120022d7c to 6804270
+[347222.968004] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120022e54 to 6804280
+[347222.968274] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120022edc to 682f000
+[347222.982167] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120023fa4 to 6809140
+[347222.982422] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002402c to 6830000
+[347222.982852] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200250a4 to 6809150
+[347222.982978] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002517c to 6809160
+[347222.995668] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200252d0 to 6804290
+[347222.995921] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120025358 to 6832000
+[347222.996676] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200263d0 to 6809170
+[347223.001915] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200264a8 to 6809180
+[347223.002177] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120026530 to 6833000
+[347223.040852] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200275f8 to 6809190
+[347223.041108] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120027680 to 6834000
+[347223.050830] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120028748 to 68091a0
+[347223.050903] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120028820 to 68091b0
+[347223.051255] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200288a8 to 6835000
+[347223.051298] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002990c to 6836000
+[347223.051917] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002a31c to 6809000
+[347223.052323] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002a484 to 68090f0
+[347223.053231] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002a50c to 68091c0
+[347223.058400] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002a660 to 6837b00
+[347223.067767] nvidia-uvm: uvm_mmap
+[347223.067849] nvidia-uvm: uvm_vm_fault
+[347223.067851] nvidia-uvm: uvm_va_space_cpu_fault: 7f87b4000000
+[347223.067856] nvidia-uvm: uvm_va_block_create: [7f87b4000000-7f87b41fffff]
+[347223.067882] nvidia-uvm: uvm_va_block_cpu_fault: 7f87b4000000. block [7f87b4000000-7f87b41fffff]
+[347223.067885] nvidia-uvm: block_cpu_fault_locked: 7f87b4000000. block [7f87b4000000-7f87b41fffff]
+[347223.067890] nvidia-uvm: uvm_va_block_select_residency processor_id: 0
+[347223.067893] nvidia-uvm: uvm_va_block_select_residency return id: 0
+[347223.067895] nvidia-uvm: uvm_va_block_service_locked processor_id: 0, block: [7f87b4000000-7f87b41fffff].
+[347223.067922] nvidia-uvm: uvm_va_block_service_copy processor_id:0, new_residency:0 
+[347223.067924] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:0 block [7f87b4000000-7f87b41fffff].
+[347223.068058] nvidia-uvm: block_copy_resident_pages dst_id:0.
+[347223.068499] nvidia-uvm: uvm_va_block_select_residency processor_id: 1
+[347223.068503] nvidia-uvm: uvm_va_block_select_residency return id: 1
+[347223.068505] nvidia-uvm: uvm_va_block_service_locked processor_id: 1, block: [7f87b4000000-7f87b41fffff].
+[347223.068534] nvidia-uvm: uvm_va_block_service_copy processor_id:1, new_residency:1 
+[347223.068536] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:1 block [7f87b4000000-7f87b41fffff].
+[347223.069116] nvidia-uvm: block_copy_resident_pages dst_id:1.
+[347223.069119] nvidia-uvm: for_each_closest_id: src_id=0, dst_id=1
+[347223.069121] nvidia-uvm: block_copy_resident_pages_between: from 0 to 1.
+[347223.069148] nvidia-uvm: block_copy_push called
+[347223.069150] nvidia-uvm: block_copy_push copy state [0:49800000] -> [1:13a00000]
+[347223.069152] nvidia-uvm: block_copy_push begin:0 next:0
+[347223.069153] nvidia-uvm: block_copy_push gpu id: 1, gpu global id: 1
+[347223.069155] nvidia-uvm: uvm_hal_volta_ce_memcopy from 49800000 to 13a00000
+[347223.069187] nvidia-uvm: block_copy_push called
+[347223.069189] nvidia-uvm: block_copy_push copy state [0:49800000] -> [1:13a00000]
+[347223.069190] nvidia-uvm: block_copy_push begin:20028098 next:0
+[347223.069191] nvidia-uvm: block_copy_push gpu id: 1, gpu global id: 1
+[347223.069193] nvidia-uvm: uvm_hal_volta_ce_memcopy from 49801000 to 13a01000
+[347223.069483] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002b29c to 6837a00
+[347223.069599] nvidia-uvm: uvm_vm_fault
+[347223.069601] nvidia-uvm: uvm_va_space_cpu_fault: 7f87b4000000
+[347223.069607] nvidia-uvm: uvm_va_block_cpu_fault: 7f87b4000000. block [7f87b4000000-7f87b41fffff]
+[347223.069609] nvidia-uvm: block_cpu_fault_locked: 7f87b4000000. block [7f87b4000000-7f87b41fffff]
+[347223.069614] nvidia-uvm: uvm_va_block_select_residency processor_id: 0
+[347223.069617] nvidia-uvm: uvm_va_block_select_residency return id: 0
+[347223.069619] nvidia-uvm: uvm_va_block_service_locked processor_id: 0, block: [7f87b4000000-7f87b41fffff].
+[347223.069645] nvidia-uvm: uvm_va_block_service_copy processor_id:0, new_residency:0 
+[347223.069646] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:0 block [7f87b4000000-7f87b41fffff].
+[347223.069701] nvidia-uvm: block_copy_resident_pages dst_id:0.
+[347223.069703] nvidia-uvm: for_each_closest_id: src_id=1, dst_id=0
+[347223.069705] nvidia-uvm: block_copy_resident_pages_between: from 1 to 0.
+[347223.069738] nvidia-uvm: block_copy_push called
+[347223.069739] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:49800000]
+[347223.069740] nvidia-uvm: block_copy_push begin:0 next:0
+[347223.069742] nvidia-uvm: block_copy_push gpu id: 1, gpu global id: 1
+[347223.069744] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a00000 to 49800000
+[347223.069775] nvidia-uvm: block_copy_push called
+[347223.069776] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:49800000]
+[347223.069778] nvidia-uvm: block_copy_push begin:20028098 next:0
+[347223.069779] nvidia-uvm: block_copy_push gpu id: 1, gpu global id: 1
+[347223.069781] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a01000 to 49801000
+[347223.070232] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002b444 to 6837a00
+[347223.071577] nvidia-uvm: uvm_release
+[347223.071581] nvidia-uvm: uvm_mm_release
+[347223.081382] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002b840 to 6804200
+[347223.081492] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002b9a0 to 6804200
+[347223.081674] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002bbec to 6804210
+[347223.157131] nvidia-uvm: uvm_release
+[347223.157258] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002be00 to 6804010
+[347223.157516] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c468 to 6804030
+[347223.157565] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c504 to 6804040
+[347223.157612] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c5a0 to 6804050
+[347223.157660] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c63c to 6804060
+[347223.157708] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c6d8 to 6804070
+[347223.157755] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c774 to 6804080
+[347223.157803] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c810 to 6804090
+[347223.157851] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c8ac to 68040a0
+[347223.157899] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c948 to 68040b0
+[347223.157947] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c9e4 to 68040c0
+[347223.157995] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002ca80 to 68040d0
+[347223.158043] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cb1c to 68040e0
+[347223.158091] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cbb8 to 68040f0
+[347223.158138] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cc54 to 6804100
+[347223.158186] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002ccf0 to 6804110
+[347223.158234] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cd8c to 6804120
+[347223.158281] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002ce28 to 6804130
+[347223.158329] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cec4 to 6804140
+[347223.158376] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cf60 to 6804150
+[347223.158424] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cffc to 6804160
+[347223.158472] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d098 to 6804170
+[347223.158520] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d134 to 6804180
+[347223.158579] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d1d0 to 6804190
+[347223.158627] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d26c to 68041a0
+[347223.158722] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d398 to 6804230
+[347223.158817] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d4c4 to 6804240
+[347223.158922] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d5f0 to 6804250
+[347223.159017] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d71c to 6829000
+[347223.160291] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d8e4 to 6804260
+[347223.160436] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002daa0 to 6804280
+[347223.160531] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002dbcc to 6804290
+[347223.161087] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002e2a4 to 6809120
+[347223.161182] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002e3d0 to 6809130
+[347223.161288] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002e4fc to 6809140
+[347223.161471] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002e6a4 to 6809160
+[347223.161619] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002e860 to 6809180
+[347223.161714] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002e98c to 6809190
+[347223.161812] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002eaec to 68091a0
+[347223.161860] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002eb88 to 68091b0
+[347223.496291] NVRM serverFreeResourceTree: hObject 0x0 not found for client 0xc1e00013
