@@ -1,0 +1,1178 @@
+[ 4212.888878] nvidia-uvm: uvm_init
+[ 4212.889183] nvidia-uvm: uvm_chardev_create
+[ 4212.889279] nvidia-uvm: Loaded the UVM driver, major device number 509.
+[ 4212.894292] nvidia-uvm: uvm_open is called from 21208: ctg.o.
+[ 4212.894297] nvidia-uvm: uvm_open is called from 21208: ctg.o.
+[ 4212.894300] nvidia-uvm: uvm_api_initialize
+[ 4212.894312] nvidia-uvm: uvm_api_mm_initialize
+[ 4212.894315] nvidia-uvm: uvm_api_pageable_mem_access
+[ 4215.179830] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_channel.c, function: channel_init, line: 1831, format: Init channel
+[ 4215.179832] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88276992] [next 88276992] on gpu [1:1] format:Init channel
+[ 4215.181913] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_channel.c, function: channel_init, line: 1831, format: Init channel
+[ 4215.181914] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 89325568] [next 89325568] on gpu [1:1] format:Init channel
+[ 4215.185156] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_channel.c, function: channel_init, line: 1831, format: Init channel
+[ 4215.185157] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 90374144] [next 90374144] on gpu [1:1] format:Init channel
+[ 4215.187241] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_channel.c, function: channel_init, line: 1831, format: Init channel
+[ 4215.187242] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 91422720] [next 91422720] on gpu [1:1] format:Init channel
+[ 4215.187406] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_init, line: 1006, format: init page tree
+[ 4215.187407] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_init, line: 1006, format: init page tree
+[ 4215.187407] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 92471296] [next 92471296] on gpu [1:1] format:init page tree
+[ 4215.193553] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_init, line: 1006, format: init page tree
+[ 4215.193555] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_init, line: 1006, format: init page tree
+[ 4215.193556] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 93519872] [next 93519872] on gpu [1:1] format:init page tree
+[ 4215.193855] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.193856] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.193857] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 94568448] [next 94568448] on gpu [1:1] format:%u dirs
+[ 4215.193870] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.193870] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.193871] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 95617024] [next 95617024] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.193872] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120700004 to 6804000
+[ 4215.193873] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 95617024] [next 95617044] on gpu [1:1]
+[ 4215.194217] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.194218] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.194218] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 96665600] [next 96665600] on gpu [1:1] format:%u dirs
+[ 4215.194220] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120800054 to 6804010
+[ 4215.194220] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 96665600] [next 96665700] on gpu [1:1]
+[ 4215.194245] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194246] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194246] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 97714176] [next 97714176] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194247] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120900004 to 6805000
+[ 4215.194247] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 97714176] [next 97718276] on gpu [1:1]
+[ 4215.194315] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.194316] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.194317] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 98762752] [next 98762752] on gpu [1:1] format:%u dirs
+[ 4215.194327] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194328] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194329] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 99811328] [next 99811328] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194329] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120b00004 to 6807000
+[ 4215.194329] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 99811328] [next 99811348] on gpu [1:1]
+[ 4215.194372] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194372] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194373] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 100859904] [next 100859904] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194374] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120c00004 to 6807100
+[ 4215.194374] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 100859904] [next 100859924] on gpu [1:1]
+[ 4215.194435] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.194435] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.194436] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 101908480] [next 101908480] on gpu [1:1] format:%u dirs
+[ 4215.194446] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194447] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194447] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 102957056] [next 102957056] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.194448] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120e00004 to 6809b00
+[ 4215.194448] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 102957056] [next 102957076] on gpu [1:1]
+[ 4215.195859] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.195861] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.195862] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 104005632] [next 104005632] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.195863] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120f00004 to 6804020
+[ 4215.195863] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 104005632] [next 104005652] on gpu [1:1]
+[ 4215.211876] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211878] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211879] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88277032] [next 88277032] on gpu [1:1] format:%u dirs
+[ 4215.211880] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000007c to 6804030
+[ 4215.211881] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88277032] [next 88277132] on gpu [1:1]
+[ 4215.211885] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211885] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211886] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88277248] [next 88277248] on gpu [1:1] format:%u dirs
+[ 4215.211887] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000154 to 6804040
+[ 4215.211887] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88277248] [next 88277348] on gpu [1:1]
+[ 4215.211890] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211891] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211891] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88277464] [next 88277464] on gpu [1:1] format:%u dirs
+[ 4215.211892] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000022c to 6804050
+[ 4215.211892] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88277464] [next 88277564] on gpu [1:1]
+[ 4215.211894] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211895] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211895] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88277680] [next 88277680] on gpu [1:1] format:%u dirs
+[ 4215.211896] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000304 to 6804060
+[ 4215.211897] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88277680] [next 88277780] on gpu [1:1]
+[ 4215.211899] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211899] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211900] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88277896] [next 88277896] on gpu [1:1] format:%u dirs
+[ 4215.211900] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200003dc to 6804070
+[ 4215.211901] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88277896] [next 88277996] on gpu [1:1]
+[ 4215.211903] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211903] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211904] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88278112] [next 88278112] on gpu [1:1] format:%u dirs
+[ 4215.211905] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200004b4 to 6804080
+[ 4215.211905] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88278112] [next 88278212] on gpu [1:1]
+[ 4215.211909] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211909] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211910] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88278328] [next 88278328] on gpu [1:1] format:%u dirs
+[ 4215.211910] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000058c to 6804090
+[ 4215.211911] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88278328] [next 88278428] on gpu [1:1]
+[ 4215.211913] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211913] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211914] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88278544] [next 88278544] on gpu [1:1] format:%u dirs
+[ 4215.211915] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000664 to 68040a0
+[ 4215.211915] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88278544] [next 88278644] on gpu [1:1]
+[ 4215.211917] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211918] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211918] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88278760] [next 88278760] on gpu [1:1] format:%u dirs
+[ 4215.211919] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000073c to 68040b0
+[ 4215.211919] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88278760] [next 88278860] on gpu [1:1]
+[ 4215.211921] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211922] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211922] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88278976] [next 88278976] on gpu [1:1] format:%u dirs
+[ 4215.211923] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000814 to 68040c0
+[ 4215.211923] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88278976] [next 88279076] on gpu [1:1]
+[ 4215.211925] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211926] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211926] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88279192] [next 88279192] on gpu [1:1] format:%u dirs
+[ 4215.211927] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200008ec to 68040d0
+[ 4215.211927] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88279192] [next 88279292] on gpu [1:1]
+[ 4215.211929] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211930] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211930] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88279408] [next 88279408] on gpu [1:1] format:%u dirs
+[ 4215.211931] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200009c4 to 68040e0
+[ 4215.211931] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88279408] [next 88279508] on gpu [1:1]
+[ 4215.211933] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211934] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211934] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88279624] [next 88279624] on gpu [1:1] format:%u dirs
+[ 4215.211935] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000a9c to 68040f0
+[ 4215.211935] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88279624] [next 88279724] on gpu [1:1]
+[ 4215.211938] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211938] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211939] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88279840] [next 88279840] on gpu [1:1] format:%u dirs
+[ 4215.211939] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000b74 to 6804100
+[ 4215.211940] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88279840] [next 88279940] on gpu [1:1]
+[ 4215.211942] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211942] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211943] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88280056] [next 88280056] on gpu [1:1] format:%u dirs
+[ 4215.211944] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000c4c to 6804110
+[ 4215.211944] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88280056] [next 88280156] on gpu [1:1]
+[ 4215.211946] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211947] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211947] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88280272] [next 88280272] on gpu [1:1] format:%u dirs
+[ 4215.211948] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000d24 to 6804120
+[ 4215.211948] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88280272] [next 88280372] on gpu [1:1]
+[ 4215.211951] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211951] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211952] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88280488] [next 88280488] on gpu [1:1] format:%u dirs
+[ 4215.211952] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000dfc to 6804130
+[ 4215.211953] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88280488] [next 88280588] on gpu [1:1]
+[ 4215.211955] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211955] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211956] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88280704] [next 88280704] on gpu [1:1] format:%u dirs
+[ 4215.211957] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000ed4 to 6804140
+[ 4215.211957] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88280704] [next 88280804] on gpu [1:1]
+[ 4215.211959] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211960] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211960] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88280920] [next 88280920] on gpu [1:1] format:%u dirs
+[ 4215.211961] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120000fac to 6804150
+[ 4215.211961] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88280920] [next 88281020] on gpu [1:1]
+[ 4215.211963] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211964] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211964] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88281136] [next 88281136] on gpu [1:1] format:%u dirs
+[ 4215.211965] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120001084 to 6804160
+[ 4215.211965] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88281136] [next 88281236] on gpu [1:1]
+[ 4215.211967] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211968] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211968] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88281352] [next 88281352] on gpu [1:1] format:%u dirs
+[ 4215.211969] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000115c to 6804170
+[ 4215.211969] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88281352] [next 88281452] on gpu [1:1]
+[ 4215.211971] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211972] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211972] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88281568] [next 88281568] on gpu [1:1] format:%u dirs
+[ 4215.211973] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120001234 to 6804180
+[ 4215.211974] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88281568] [next 88281668] on gpu [1:1]
+[ 4215.211978] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211979] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211979] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88281784] [next 88281784] on gpu [1:1] format:%u dirs
+[ 4215.211980] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000130c to 6804190
+[ 4215.211980] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88281784] [next 88281884] on gpu [1:1]
+[ 4215.211982] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211983] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.211983] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88282000] [next 88282000] on gpu [1:1] format:%u dirs
+[ 4215.211984] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200013e4 to 68041a0
+[ 4215.211984] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88282000] [next 88282100] on gpu [1:1]
+[ 4215.212653] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212654] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212654] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88282216] [next 88282216] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212656] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000146c to 680a000
+[ 4215.212656] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88282216] [next 88286316] on gpu [1:1]
+[ 4215.212658] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212659] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212659] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88286412] [next 88286412] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212660] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200024d0 to 680b000
+[ 4215.212660] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88286412] [next 88290512] on gpu [1:1]
+[ 4215.212662] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212662] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212663] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88290608] [next 88290608] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212664] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120003534 to 680c000
+[ 4215.212664] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88290608] [next 88294708] on gpu [1:1]
+[ 4215.212666] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212666] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212667] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88294804] [next 88294804] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212668] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120004598 to 680d000
+[ 4215.212668] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88294804] [next 88298904] on gpu [1:1]
+[ 4215.212669] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212670] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212671] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88299000] [next 88299000] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212671] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200055fc to 680e000
+[ 4215.212672] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88299000] [next 88303100] on gpu [1:1]
+[ 4215.212673] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212674] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212674] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88303196] [next 88303196] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212675] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120006660 to 680f000
+[ 4215.212675] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88303196] [next 88307296] on gpu [1:1]
+[ 4215.212677] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212677] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212678] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88307392] [next 88307392] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212679] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200076c4 to 6810000
+[ 4215.212679] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88307392] [next 88311492] on gpu [1:1]
+[ 4215.212681] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212681] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212682] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88311588] [next 88311588] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212682] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120008728 to 6811000
+[ 4215.212683] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88311588] [next 88315688] on gpu [1:1]
+[ 4215.212684] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212685] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212685] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88315784] [next 88315784] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212686] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000978c to 6812000
+[ 4215.212686] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88315784] [next 88319884] on gpu [1:1]
+[ 4215.212688] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212688] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212689] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88319980] [next 88319980] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212690] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000a7f0 to 6813000
+[ 4215.212690] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88319980] [next 88324080] on gpu [1:1]
+[ 4215.212691] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212692] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212692] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88324176] [next 88324176] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212693] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000b854 to 6814000
+[ 4215.212694] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88324176] [next 88328276] on gpu [1:1]
+[ 4215.212695] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212695] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212696] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88328372] [next 88328372] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212697] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000c8b8 to 6815000
+[ 4215.212697] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88328372] [next 88332472] on gpu [1:1]
+[ 4215.212699] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212699] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212700] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88332568] [next 88332568] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212700] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000d91c to 6816000
+[ 4215.212701] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88332568] [next 88336668] on gpu [1:1]
+[ 4215.212702] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212703] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212703] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88336764] [next 88336764] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212704] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000e980 to 6817000
+[ 4215.212704] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88336764] [next 88340864] on gpu [1:1]
+[ 4215.212706] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212706] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212707] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88340960] [next 88340960] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212708] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12000f9e4 to 6818000
+[ 4215.212708] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88340960] [next 88345060] on gpu [1:1]
+[ 4215.212709] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212710] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212710] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88345156] [next 88345156] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212711] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120010a48 to 6819000
+[ 4215.212712] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88345156] [next 88349256] on gpu [1:1]
+[ 4215.212713] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212714] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212714] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88349352] [next 88349352] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212715] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120011aac to 681a000
+[ 4215.212715] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88349352] [next 88353452] on gpu [1:1]
+[ 4215.212717] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212717] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212718] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88353548] [next 88353548] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212718] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120012b10 to 681b000
+[ 4215.212719] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88353548] [next 88357648] on gpu [1:1]
+[ 4215.212720] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212721] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212721] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88357744] [next 88357744] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212722] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120013b74 to 681c000
+[ 4215.212722] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88357744] [next 88361844] on gpu [1:1]
+[ 4215.212724] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212724] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212725] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88361940] [next 88361940] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212726] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120014bd8 to 681d000
+[ 4215.212726] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88361940] [next 88366040] on gpu [1:1]
+[ 4215.212728] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212728] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212729] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88366136] [next 88366136] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212730] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120015c3c to 681e000
+[ 4215.212730] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88366136] [next 88370236] on gpu [1:1]
+[ 4215.212731] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212732] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212732] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88370332] [next 88370332] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212733] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120016ca0 to 681f000
+[ 4215.212734] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88370332] [next 88374432] on gpu [1:1]
+[ 4215.212735] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212736] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212736] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88374528] [next 88374528] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212737] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120017d04 to 6820000
+[ 4215.212737] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88374528] [next 88378628] on gpu [1:1]
+[ 4215.212739] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212739] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212740] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88378724] [next 88378724] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.212741] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120018d68 to 6821000
+[ 4215.212741] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88378724] [next 88382824] on gpu [1:1]
+[ 4215.215181] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.215183] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.215183] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88382940] [next 88382940] on gpu [1:1] format:%u dirs
+[ 4215.215185] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120019e30 to 6804230
+[ 4215.215186] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88382940] [next 88383040] on gpu [1:1]
+[ 4215.215212] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.215213] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.215213] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88383156] [next 88383156] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.215214] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120019eb8 to 6822000
+[ 4215.215215] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88383156] [next 88387256] on gpu [1:1]
+[ 4215.215598] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.215599] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.215600] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88387372] [next 88387372] on gpu [1:1] format:%u dirs
+[ 4215.215601] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001af80 to 6804240
+[ 4215.215602] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88387372] [next 88387472] on gpu [1:1]
+[ 4215.215627] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.215629] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.215630] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88387588] [next 88387588] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.215640] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001b008 to 6823000
+[ 4215.215642] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88387588] [next 88391688] on gpu [1:1]
+[ 4215.229055] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229057] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229058] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88391804] [next 88391804] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229059] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c080 to 68041b0
+[ 4215.229060] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88391804] [next 88391888] on gpu [1:1]
+[ 4215.229066] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.229067] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.229068] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88392004] [next 88392004] on gpu [1:1] format:%u dirs
+[ 4215.229069] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c198 to 6804200
+[ 4215.229069] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88392004] [next 88392104] on gpu [1:1]
+[ 4215.229079] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229079] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229080] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88392220] [next 88392220] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229081] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c220 to 6824000
+[ 4215.229081] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88392220] [next 88392288] on gpu [1:1]
+[ 4215.229087] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229088] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229088] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88392404] [next 88392404] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229089] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c2d8 to 6824040
+[ 4215.229089] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88392404] [next 88392416] on gpu [1:1]
+[ 4215.229095] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229095] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229096] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88392532] [next 88392532] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229096] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c358 to 6824048
+[ 4215.229096] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88392532] [next 88392600] on gpu [1:1]
+[ 4215.229116] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229116] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229117] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88392716] [next 88392716] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229117] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c410 to 6824088
+[ 4215.229118] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88392716] [next 88392736] on gpu [1:1]
+[ 4215.229123] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229124] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229124] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88392852] [next 88392852] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229125] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c498 to 6824098
+[ 4215.229125] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88392852] [next 88392920] on gpu [1:1]
+[ 4215.229128] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.229129] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.229129] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88393036] [next 88393036] on gpu [1:1] format:%u dirs
+[ 4215.229130] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c5a0 to 6804200
+[ 4215.229130] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88393036] [next 88393136] on gpu [1:1]
+[ 4215.229132] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.229133] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.229133] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88393252] [next 88393252] on gpu [1:1] format:%u dirs
+[ 4215.229134] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c678 to 6804210
+[ 4215.229135] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88393252] [next 88393352] on gpu [1:1]
+[ 4215.229153] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229153] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229154] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88393468] [next 88393468] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229154] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c700 to 6825d80
+[ 4215.229155] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88393468] [next 88394112] on gpu [1:1]
+[ 4215.229156] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229157] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229157] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88394208] [next 88394208] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229158] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001c9e4 to 6826000
+[ 4215.229158] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88394208] [next 88396428] on gpu [1:1]
+[ 4215.229164] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229164] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229165] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88396544] [next 88396544] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229165] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d304 to 68268a8
+[ 4215.229166] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88396544] [next 88396572] on gpu [1:1]
+[ 4215.229171] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229172] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229172] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88396688] [next 88396688] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229172] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d394 to 68268c0
+[ 4215.229173] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88396688] [next 88396820] on gpu [1:1]
+[ 4215.229178] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229178] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229179] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88396936] [next 88396936] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.229179] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d48c to 6826940
+[ 4215.229180] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88396936] [next 88396980] on gpu [1:1]
+[ 4215.266135] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.266137] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.266138] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88397096] [next 88397096] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.266139] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d52c to 6809b10
+[ 4215.266140] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88397096] [next 88397116] on gpu [1:1]
+[ 4215.266460] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.266461] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.266462] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88397232] [next 88397232] on gpu [1:1] format:%u dirs
+[ 4215.266464] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d6a0 to 6829000
+[ 4215.266464] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88397232] [next 88397488] on gpu [1:1]
+[ 4215.266473] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_write_ptes_gpu, line: 2007, format: Writing PTEs for range at [0x%llx, 0x%llx), subrange of range vec at [0x%llx, 0x%llx)
+[ 4215.266473] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_write_ptes_gpu, line: 2007, format: Writing PTEs for range at [0x%llx, 0x%llx), subrange of range vec at [0x%llx, 0x%llx)
+[ 4215.266474] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88397760] [next 88397760] on gpu [1:1] format:Writing PTEs for range at [0x%llx, 0x%llx), subrange of range vec at [0x%llx, 0x%llx)
+[ 4215.266499] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001d7c4 to 682a000
+[ 4215.266499] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88397760] [next 88401860] on gpu [1:1]
+[ 4215.266508] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.266508] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.266509] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88401976] [next 88401976] on gpu [1:1] format:%u dirs
+[ 4215.266510] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001e88c to 6804250
+[ 4215.266510] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88401976] [next 88402076] on gpu [1:1]
+[ 4215.266516] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_write_ptes_gpu, line: 2007, format: Writing PTEs for range at [0x%llx, 0x%llx), subrange of range vec at [0x%llx, 0x%llx)
+[ 4215.266517] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_write_ptes_gpu, line: 2007, format: Writing PTEs for range at [0x%llx, 0x%llx), subrange of range vec at [0x%llx, 0x%llx)
+[ 4215.266517] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88402192] [next 88402192] on gpu [1:1] format:Writing PTEs for range at [0x%llx, 0x%llx), subrange of range vec at [0x%llx, 0x%llx)
+[ 4215.266542] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001e914 to 682b000
+[ 4215.266542] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88402192] [next 88406292] on gpu [1:1]
+[ 4215.266553] nvidia-uvm: uvm_mmap
+[ 4215.267091] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.267092] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.267093] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88406408] [next 88406408] on gpu [1:1] format:%u dirs
+[ 4215.267094] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001f9dc to 6804260
+[ 4215.267095] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88406408] [next 88406508] on gpu [1:1]
+[ 4215.267126] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.267126] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.267127] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88406624] [next 88406624] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.267128] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12001fa64 to 682c000
+[ 4215.267129] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88406624] [next 88410724] on gpu [1:1]
+[ 4215.268243] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.268244] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.268245] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88410840] [next 88410840] on gpu [1:1] format:%u dirs
+[ 4215.268246] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120020b2c to 6809b20
+[ 4215.268247] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88410840] [next 88410940] on gpu [1:1]
+[ 4215.268271] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.268272] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.268273] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88411056] [next 88411056] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.268274] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120020bb4 to 682d000
+[ 4215.268274] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88411056] [next 88415156] on gpu [1:1]
+[ 4215.268847] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.268847] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.268848] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88415272] [next 88415272] on gpu [1:1] format:%u dirs
+[ 4215.268849] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120021c7c to 6809b30
+[ 4215.268849] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88415272] [next 88415372] on gpu [1:1]
+[ 4215.268874] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.268874] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.268875] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88415488] [next 88415488] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.268875] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120021d04 to 682e000
+[ 4215.268876] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88415488] [next 88419588] on gpu [1:1]
+[ 4215.268933] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.268934] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.268934] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88419704] [next 88419704] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.268935] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120022d7c to 6804270
+[ 4215.268935] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88419704] [next 88419724] on gpu [1:1]
+[ 4215.269317] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.269318] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.269319] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88419840] [next 88419840] on gpu [1:1] format:%u dirs
+[ 4215.269320] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120022e54 to 6804280
+[ 4215.269320] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88419840] [next 88419940] on gpu [1:1]
+[ 4215.269344] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.269345] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.269345] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88420056] [next 88420056] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.269346] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120022edc to 682f000
+[ 4215.269346] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88420056] [next 88424156] on gpu [1:1]
+[ 4215.270072] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.270073] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.270073] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88424272] [next 88424272] on gpu [1:1] format:%u dirs
+[ 4215.270074] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120023fa4 to 6809b40
+[ 4215.270075] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88424272] [next 88424372] on gpu [1:1]
+[ 4215.270100] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270101] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270102] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88424488] [next 88424488] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270102] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002402c to 6830000
+[ 4215.270103] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88424488] [next 88428588] on gpu [1:1]
+[ 4215.270151] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270152] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270153] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88428704] [next 88428704] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270153] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200250a4 to 6809b50
+[ 4215.270154] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88428704] [next 88428724] on gpu [1:1]
+[ 4215.270168] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.270169] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.270170] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88428840] [next 88428840] on gpu [1:1] format:%u dirs
+[ 4215.270170] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002517c to 6809b60
+[ 4215.270171] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88428840] [next 88428940] on gpu [1:1]
+[ 4215.270177] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_write_ptes_gpu, line: 2007, format: Writing PTEs for range at [0x%llx, 0x%llx), subrange of range vec at [0x%llx, 0x%llx)
+[ 4215.270178] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_write_ptes_gpu, line: 2007, format: Writing PTEs for range at [0x%llx, 0x%llx), subrange of range vec at [0x%llx, 0x%llx)
+[ 4215.270179] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88429056] [next 88429056] on gpu [1:1] format:Writing PTEs for range at [0x%llx, 0x%llx), subrange of range vec at [0x%llx, 0x%llx)
+[ 4215.270730] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.270731] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.270732] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88429180] [next 88429180] on gpu [1:1] format:%u dirs
+[ 4215.270733] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200252d0 to 6804290
+[ 4215.270733] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88429180] [next 88429280] on gpu [1:1]
+[ 4215.270757] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270758] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270759] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88429396] [next 88429396] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270759] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120025358 to 6832000
+[ 4215.270760] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88429396] [next 88433496] on gpu [1:1]
+[ 4215.270895] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270896] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270897] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88433612] [next 88433612] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.270898] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200263d0 to 6809b70
+[ 4215.270898] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88433612] [next 88433632] on gpu [1:1]
+[ 4215.271483] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.271485] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.271486] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88433748] [next 88433748] on gpu [1:1] format:%u dirs
+[ 4215.271488] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200264a8 to 6809b80
+[ 4215.271489] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88433748] [next 88433848] on gpu [1:1]
+[ 4215.271514] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.271515] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.271516] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88433964] [next 88433964] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.271517] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120026530 to 6833000
+[ 4215.271517] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88433964] [next 88438064] on gpu [1:1]
+[ 4215.277979] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.277981] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.277982] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88438180] [next 88438180] on gpu [1:1] format:%u dirs
+[ 4215.277983] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200275f8 to 6809b90
+[ 4215.277984] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88438180] [next 88438280] on gpu [1:1]
+[ 4215.278015] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.278016] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.278016] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88438396] [next 88438396] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.278017] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120027680 to 6834000
+[ 4215.278018] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88438396] [next 88442496] on gpu [1:1]
+[ 4215.280251] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.280252] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.280253] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88442612] [next 88442612] on gpu [1:1] format:%u dirs
+[ 4215.280255] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120028748 to 6809ba0
+[ 4215.280255] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88442612] [next 88442712] on gpu [1:1]
+[ 4215.280259] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.280259] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.280260] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88442828] [next 88442828] on gpu [1:1] format:%u dirs
+[ 4215.280261] nvidia-uvm: uvm_hal_volta_ce_memcopy from 120028820 to 6809bb0
+[ 4215.280262] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88442828] [next 88442928] on gpu [1:1]
+[ 4215.280301] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280302] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280302] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88443044] [next 88443044] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280304] nvidia-uvm: uvm_hal_volta_ce_memcopy from 1200288a8 to 6835000
+[ 4215.280304] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88443044] [next 88447144] on gpu [1:1]
+[ 4215.280306] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280307] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280307] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88447240] [next 88447240] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280308] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002990c to 6836000
+[ 4215.280308] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88447240] [next 88449700] on gpu [1:1]
+[ 4215.280530] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.280531] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: write_gpu_state_gpu, line: 695, format: %u dirs
+[ 4215.280532] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88449816] [next 88449816] on gpu [1:1] format:%u dirs
+[ 4215.280543] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280544] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280544] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88450020] [next 88450020] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280545] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002a3e8 to 6837f00
+[ 4215.280545] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88450020] [next 88450264] on gpu [1:1]
+[ 4215.280591] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280591] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280592] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88450380] [next 88450380] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.280593] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002a550 to 6837ff0
+[ 4215.280593] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88450380] [next 88450400] on gpu [1:1]
+[ 4215.281414] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.281415] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.281416] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88450516] [next 88450516] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.281417] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002a5d8 to 6809bc0
+[ 4215.281417] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88450516] [next 88450536] on gpu [1:1]
+[ 4215.284127] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.284129] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_map_external.c, function: copy_ptes, line: 230, format: Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.284130] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88450652] [next 88450652] on gpu [1:1] format:Writing %u bytes of PTEs to {%s, 0x%llx}
+[ 4215.284131] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002a660 to 6837a00
+[ 4215.284131] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88450652] [next 88451856] on gpu [1:1]
+[ 4215.289671] nvidia-uvm: uvm_mmap
+[ 4215.289690] nvidia-uvm: uvm_vm_fault
+[ 4215.289691] nvidia-uvm: uvm_va_space_cpu_fault: 7f79f2000000
+[ 4215.289693] nvidia-uvm: uvm_va_block_create: [7f79f2000000-7f79f21fffff]
+[ 4215.289700] nvidia-uvm: uvm_va_block_cpu_fault: 7f79f2000000. block [7f79f2000000-7f79f21fffff]
+[ 4215.289701] nvidia-uvm: block_cpu_fault_locked: 7f79f2000000. block [7f79f2000000-7f79f21fffff]
+[ 4215.289702] nvidia-uvm: uvm_va_block_select_residency processor_id: 0
+[ 4215.289703] nvidia-uvm: uvm_va_block_select_residency return id: 0
+[ 4215.289704] nvidia-uvm: uvm_va_block_service_locked processor_id: 0, block: [7f79f2000000-7f79f21fffff].
+[ 4215.289707] nvidia-uvm: uvm_va_block_service_copy processor_id:0, new_residency:0 
+[ 4215.289708] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:0 block [7f79f2000000-7f79f21fffff].
+[ 4215.295721] ctg.o: page allocation failure: order:9, mode:0x142d0c2(GFP_HIGHUSER|__GFP_NORETRY|__GFP_COMP|__GFP_ZERO), nodemask=(null)
+[ 4215.295721] ctg.o cpuset=/ mems_allowed=0
+[ 4215.295725] CPU: 7 PID: 21208 Comm: ctg.o Tainted: G           OE    4.15.0-110-generic #100
+[ 4215.295725] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.15.0-1 04/01/2014
+[ 4215.295726] Call Trace:
+[ 4215.295731]  dump_stack+0x63/0x89
+[ 4215.295733]  warn_alloc+0xff/0x1a0
+[ 4215.295736]  ? _cond_resched+0x19/0x40
+[ 4215.295737]  ? __alloc_pages_direct_compact+0xf4/0x100
+[ 4215.295738]  __alloc_pages_slowpath+0xe10/0xe60
+[ 4215.295739]  __alloc_pages_nodemask+0x263/0x280
+[ 4215.295742]  alloc_pages_current+0x6a/0xe0
+[ 4215.295755]  uvm_cpu_chunk_alloc+0x50/0xd0 [nvidia_uvm]
+[ 4215.295764]  block_populate_pages_cpu+0x405/0x460 [nvidia_uvm]
+[ 4215.295766]  ? print_cfs_rq+0x890/0x1450
+[ 4215.295772]  block_populate_pages+0x22a/0xcf0 [nvidia_uvm]
+[ 4215.295774]  ? vprintk_emit+0x333/0x3a0
+[ 4215.295782]  ? uvm_tracker_add_tracker+0x21/0x110 [nvidia_uvm]
+[ 4215.295788]  ? uvm_tracker_add_tracker_safe+0x14/0xa0 [nvidia_uvm]
+[ 4215.295795]  ? uvm_va_block_unmap_mask+0xef/0x120 [nvidia_uvm]
+[ 4215.295800]  uvm_va_block_make_resident_copy+0x1d1/0x210 [nvidia_uvm]
+[ 4215.295806]  uvm_va_block_service_copy+0x128/0x2e0 [nvidia_uvm]
+[ 4215.295811]  uvm_va_block_service_locked+0xbf/0x300 [nvidia_uvm]
+[ 4215.295816]  block_cpu_fault_locked+0x2ab/0x4a0 [nvidia_uvm]
+[ 4215.295822]  uvm_va_block_cpu_fault+0xc6/0x110 [nvidia_uvm]
+[ 4215.295827]  ? uvm_va_block_cpu_fault+0xc6/0x110 [nvidia_uvm]
+[ 4215.295833]  uvm_va_space_cpu_fault+0x1ab/0x420 [nvidia_uvm]
+[ 4215.295834]  ? vprintk_func+0x27/0x60
+[ 4215.295835]  ? printk+0x52/0x6e
+[ 4215.295841]  uvm_va_space_cpu_fault_managed+0x10/0x20 [nvidia_uvm]
+[ 4215.295846]  uvm_vm_fault+0x41/0x50 [nvidia_uvm]
+[ 4215.295851]  uvm_vm_fault_wrapper_entry+0x70/0xa0 [nvidia_uvm]
+[ 4215.295852]  ? alloc_pages_current+0x6a/0xe0
+[ 4215.295853]  __do_fault+0x24/0xf0
+[ 4215.295854]  __handle_mm_fault+0x905/0xea0
+[ 4215.295855]  handle_mm_fault+0xc8/0x1c0
+[ 4215.295857]  __do_page_fault+0x328/0x540
+[ 4215.295858]  do_page_fault+0x2e/0xe0
+[ 4215.295859]  ? async_page_fault+0x36/0x60
+[ 4215.295861]  do_async_page_fault+0x51/0x80
+[ 4215.295862]  async_page_fault+0x4c/0x60
+[ 4215.295863] RIP: 0033:0x563aa9bdb1c8
+[ 4215.295864] RSP: 002b:00007ffff641c330 EFLAGS: 00010206
+[ 4215.295865] RAX: 0000000000000000 RBX: 0000000000000000 RCX: 000000000000001c
+[ 4215.295865] RDX: 00007f79f2000000 RSI: 0000563aaa400240 RDI: 00007f7a27a54900
+[ 4215.295865] RBP: 00007ffff641c380 R08: 02c000020d001e0a R09: 0000000000000000
+[ 4215.295866] R10: 0000000000000000 R11: 0000563aaac35500 R12: 0000563aa9bdaff0
+[ 4215.295866] R13: 00007ffff641c460 R14: 0000000000000000 R15: 0000000000000000
+[ 4215.295867] Mem-Info:
+[ 4215.295870] active_anon:422158 inactive_anon:2054 isolated_anon:0
+                active_file:410507 inactive_file:223667 isolated_file:0
+                unevictable:0 dirty:29621 writeback:0 unstable:0
+                slab_reclaimable:66291 slab_unreclaimable:58228
+                mapped:41736 shmem:2288 pagetables:3382 bounce:0
+                free:15991 free_pcp:140 free_cma:0
+[ 4215.295872] Node 0 active_anon:1688632kB inactive_anon:8216kB active_file:1642028kB inactive_file:894668kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:166944kB dirty:118484kB writeback:0kB shmem:9152kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
+[ 4215.295872] Node 0 DMA free:15908kB min:24kB low:36kB high:48kB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15992kB managed:15908kB mlocked:0kB kernel_stack:0kB pagetables:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[ 4215.295874] lowmem_reserve[]: 0 2453 6431 6431 6431
+[ 4215.295876] Node 0 DMA32 free:30048kB min:3908kB low:6420kB high:8932kB active_anon:875608kB inactive_anon:7784kB active_file:1305752kB inactive_file:683160kB unevictable:0kB writepending:92420kB present:3129184kB managed:3036372kB mlocked:0kB kernel_stack:1344kB pagetables:3000kB bounce:0kB free_pcp:600kB local_pcp:0kB free_cma:0kB
+[ 4215.295878] lowmem_reserve[]: 0 0 3977 3977 3977
+[ 4215.295879] Node 0 Normal free:18008kB min:6336kB low:10408kB high:14480kB active_anon:813248kB inactive_anon:500kB active_file:336204kB inactive_file:211408kB unevictable:0kB writepending:26088kB present:4194304kB managed:4073284kB mlocked:0kB kernel_stack:6880kB pagetables:10528kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[ 4215.295881] lowmem_reserve[]: 0 0 0 0 0
+[ 4215.295882] Node 0 DMA: 1*4kB (U) 0*8kB 0*16kB 1*32kB (U) 2*64kB (U) 1*128kB (U) 1*256kB (U) 0*512kB 1*1024kB (U) 1*2048kB (U) 3*4096kB (M) = 15908kB
+[ 4215.295888] Node 0 DMA32: 1055*4kB (UME) 1976*8kB (UM) 347*16kB (UM) 21*32kB (UM) 10*64kB (M) 9*128kB (UM) 3*256kB (M) 3*512kB (M) 0*1024kB 0*2048kB 0*4096kB = 30348kB
+[ 4215.295893] Node 0 Normal: 1640*4kB (UMEH) 1124*8kB (UMEH) 160*16kB (UMH) 17*32kB (EH) 0*64kB 1*128kB (E) 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 18784kB
+[ 4215.295897] 636421 total pagecache pages
+[ 4215.295898] 0 pages in swap cache
+[ 4215.295898] Swap cache stats: add 0, delete 0, find 0/0
+[ 4215.295899] Free swap  = 0kB
+[ 4215.295899] Total swap = 0kB
+[ 4215.295899] 1834870 pages RAM
+[ 4215.295900] 0 pages HighMem/MovableOnly
+[ 4215.295900] 53479 pages reserved
+[ 4215.295900] 0 pages cma reserved
+[ 4215.295901] 0 pages hwpoisoned
+[ 4215.295915] nvidia-uvm: block_copy_resident_pages dst_id:0.
+[ 4215.295994] nvidia-uvm: uvm_va_block_select_residency processor_id: 1
+[ 4215.295996] nvidia-uvm: uvm_va_block_select_residency return id: 1
+[ 4215.295997] nvidia-uvm: uvm_va_block_service_locked processor_id: 1, block: [7f79f2000000-7f79f21fffff].
+[ 4215.296000] nvidia-uvm: uvm_va_block_service_copy processor_id:1, new_residency:1 
+[ 4215.296001] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:1 block [7f79f2000000-7f79f21fffff].
+[ 4215.296171] nvidia-uvm: block_copy_resident_pages dst_id:1.
+[ 4215.296172] nvidia-uvm: for_each_closest_id: src_id=0, dst_id=1
+[ 4215.296173] nvidia-uvm: block_copy_resident_pages_between: from 0 to 1.
+[ 4215.296174] nvidia-uvm: block_copy_begin_push called
+[ 4215.296176] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_va_block.c, function: block_copy_begin_push, line: 2761, format: Copy from %s to %s for block [0x%llx, 0x%llx]
+[ 4215.296180] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_va_block.c, function: block_copy_begin_push, line: 2761, format: Copy from %s to %s for block [0x%llx, 0x%llx]
+[ 4215.296182] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88451972] [next 88451972] on gpu [1:1] format:Copy from %s to %s for block [0x%llx, 0x%llx]
+[ 4215.296183] nvidia-uvm: block_copy_push called
+[ 4215.296184] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296186] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c60000 to 13a00000
+[ 4215.296186] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88451972] on gpu [1:1]
+[ 4215.296191] nvidia-uvm: block_copy_push called
+[ 4215.296192] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296193] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c61000 to 13a01000
+[ 4215.296194] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452020] on gpu [1:1]
+[ 4215.296194] nvidia-uvm: block_copy_push called
+[ 4215.296195] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296195] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c62000 to 13a02000
+[ 4215.296195] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452068] on gpu [1:1]
+[ 4215.296196] nvidia-uvm: block_copy_push called
+[ 4215.296196] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296197] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c63000 to 13a03000
+[ 4215.296197] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452116] on gpu [1:1]
+[ 4215.296198] nvidia-uvm: block_copy_push called
+[ 4215.296198] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296198] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c64000 to 13a04000
+[ 4215.296199] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452164] on gpu [1:1]
+[ 4215.296199] nvidia-uvm: block_copy_push called
+[ 4215.296199] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296200] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c65000 to 13a05000
+[ 4215.296200] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452212] on gpu [1:1]
+[ 4215.296202] nvidia-uvm: block_copy_push called
+[ 4215.296202] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296203] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c66000 to 13a06000
+[ 4215.296204] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452260] on gpu [1:1]
+[ 4215.296204] nvidia-uvm: block_copy_push called
+[ 4215.296205] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296205] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c67000 to 13a07000
+[ 4215.296205] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452308] on gpu [1:1]
+[ 4215.296206] nvidia-uvm: block_copy_push called
+[ 4215.296206] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296206] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c68000 to 13a08000
+[ 4215.296207] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452356] on gpu [1:1]
+[ 4215.296207] nvidia-uvm: block_copy_push called
+[ 4215.296208] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296208] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c69000 to 13a09000
+[ 4215.296208] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452404] on gpu [1:1]
+[ 4215.296209] nvidia-uvm: block_copy_push called
+[ 4215.296209] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296209] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c6a000 to 13a0a000
+[ 4215.296210] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452452] on gpu [1:1]
+[ 4215.296210] nvidia-uvm: block_copy_push called
+[ 4215.296211] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296211] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c6b000 to 13a0b000
+[ 4215.296212] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452500] on gpu [1:1]
+[ 4215.296213] nvidia-uvm: block_copy_push called
+[ 4215.296214] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296214] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c6c000 to 13a0c000
+[ 4215.296214] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452548] on gpu [1:1]
+[ 4215.296215] nvidia-uvm: block_copy_push called
+[ 4215.296215] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296216] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c6d000 to 13a0d000
+[ 4215.296216] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452596] on gpu [1:1]
+[ 4215.296216] nvidia-uvm: block_copy_push called
+[ 4215.296217] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296217] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c6e000 to 13a0e000
+[ 4215.296217] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452644] on gpu [1:1]
+[ 4215.296218] nvidia-uvm: block_copy_push called
+[ 4215.296218] nvidia-uvm: block_copy_push copy state [0:0] -> [1:13a00000]
+[ 4215.296219] nvidia-uvm: uvm_hal_volta_ce_memcopy from 194c6f000 to 13a0f000
+[ 4215.296219] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88451972] [next 88452692] on gpu [1:1]
+[ 4215.296232] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_va_block.c, function: block_map_gpu_to, line: 7144, format: Mapping pages in block [0x%llx, 0x%llx) as %s
+[ 4215.296233] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_va_block.c, function: block_map_gpu_to, line: 7144, format: Mapping pages in block [0x%llx, 0x%llx) as %s
+[ 4215.296233] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88452764] [next 88452764] on gpu [1:1] format:Mapping pages in block [0x%llx, 0x%llx) as %s
+[ 4215.296241] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002b53c to 6837900
+[ 4215.296241] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88452764] [next 88454476] on gpu [1:1]
+[ 4215.296246] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_gpu_replayable_faults.c, function: push_replay_on_gpu, line: 500, format: Replaying faults
+[ 4215.296247] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_gpu_replayable_faults.c, function: push_replay_on_gpu, line: 500, format: Replaying faults
+[ 4215.296247] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88454572] [next 88454572] on gpu [1:1] format:Replaying faults
+[ 4215.296255] nvidia-uvm: uvm_vm_fault
+[ 4215.296255] nvidia-uvm: uvm_va_space_cpu_fault: 7f79f2000000
+[ 4215.296257] nvidia-uvm: uvm_va_block_cpu_fault: 7f79f2000000. block [7f79f2000000-7f79f21fffff]
+[ 4215.296258] nvidia-uvm: block_cpu_fault_locked: 7f79f2000000. block [7f79f2000000-7f79f21fffff]
+[ 4215.296259] nvidia-uvm: uvm_va_block_select_residency processor_id: 0
+[ 4215.296260] nvidia-uvm: uvm_va_block_select_residency return id: 0
+[ 4215.296260] nvidia-uvm: uvm_va_block_service_locked processor_id: 0, block: [7f79f2000000-7f79f21fffff].
+[ 4215.296262] nvidia-uvm: uvm_va_block_service_copy processor_id:0, new_residency:0 
+[ 4215.296263] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:0 block [7f79f2000000-7f79f21fffff].
+[ 4215.296267] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_va_block.c, function: block_unmap_gpu, line: 6690, format: Unmapping pages in block [0x%llx, 0x%llx)
+[ 4215.296269] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_va_block.c, function: block_unmap_gpu, line: 6690, format: Unmapping pages in block [0x%llx, 0x%llx)
+[ 4215.296270] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88454616] [next 88454616] on gpu [1:1] format:Unmapping pages in block [0x%llx, 0x%llx)
+[ 4215.296274] nvidia-uvm: block_copy_resident_pages dst_id:0.
+[ 4215.296276] nvidia-uvm: for_each_closest_id: src_id=1, dst_id=0
+[ 4215.296276] nvidia-uvm: block_copy_resident_pages_between: from 1 to 0.
+[ 4215.296277] nvidia-uvm: block_copy_begin_push called
+[ 4215.296278] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_va_block.c, function: block_copy_begin_push, line: 2761, format: Copy from %s to %s for block [0x%llx, 0x%llx]
+[ 4215.296279] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_va_block.c, function: block_copy_begin_push, line: 2761, format: Copy from %s to %s for block [0x%llx, 0x%llx]
+[ 4215.296280] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88454760] [next 88454760] on gpu [1:1] format:Copy from %s to %s for block [0x%llx, 0x%llx]
+[ 4215.296282] nvidia-uvm: block_copy_push called
+[ 4215.296282] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296283] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a00000 to 194c60000
+[ 4215.296284] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88454760] on gpu [1:1]
+[ 4215.296305] nvidia-uvm: block_copy_push called
+[ 4215.296306] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296307] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a01000 to 194c61000
+[ 4215.296307] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88454808] on gpu [1:1]
+[ 4215.296309] nvidia-uvm: block_copy_push called
+[ 4215.296310] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296310] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a02000 to 194c62000
+[ 4215.296310] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88454856] on gpu [1:1]
+[ 4215.296311] nvidia-uvm: block_copy_push called
+[ 4215.296311] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296311] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a03000 to 194c63000
+[ 4215.296312] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88454904] on gpu [1:1]
+[ 4215.296312] nvidia-uvm: block_copy_push called
+[ 4215.296313] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296313] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a04000 to 194c64000
+[ 4215.296313] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88454952] on gpu [1:1]
+[ 4215.296314] nvidia-uvm: block_copy_push called
+[ 4215.296314] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296314] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a05000 to 194c65000
+[ 4215.296315] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88455000] on gpu [1:1]
+[ 4215.296315] nvidia-uvm: block_copy_push called
+[ 4215.296316] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296316] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a06000 to 194c66000
+[ 4215.296316] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88455048] on gpu [1:1]
+[ 4215.296317] nvidia-uvm: block_copy_push called
+[ 4215.296317] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296319] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a07000 to 194c67000
+[ 4215.296319] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88455096] on gpu [1:1]
+[ 4215.296320] nvidia-uvm: block_copy_push called
+[ 4215.296321] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296321] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a08000 to 194c68000
+[ 4215.296322] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88455144] on gpu [1:1]
+[ 4215.296322] nvidia-uvm: block_copy_push called
+[ 4215.296322] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296323] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a09000 to 194c69000
+[ 4215.296323] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88455192] on gpu [1:1]
+[ 4215.296324] nvidia-uvm: block_copy_push called
+[ 4215.296324] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296324] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a0a000 to 194c6a000
+[ 4215.296325] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88455240] on gpu [1:1]
+[ 4215.296325] nvidia-uvm: block_copy_push called
+[ 4215.296325] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296326] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a0b000 to 194c6b000
+[ 4215.296326] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88455288] on gpu [1:1]
+[ 4215.296327] nvidia-uvm: block_copy_push called
+[ 4215.296327] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296327] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a0c000 to 194c6c000
+[ 4215.296328] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88455336] on gpu [1:1]
+[ 4215.296328] nvidia-uvm: block_copy_push called
+[ 4215.296329] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296329] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a0d000 to 194c6d000
+[ 4215.296329] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88455384] on gpu [1:1]
+[ 4215.296330] nvidia-uvm: block_copy_push called
+[ 4215.296331] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296331] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a0e000 to 194c6e000
+[ 4215.296332] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88455432] on gpu [1:1]
+[ 4215.296332] nvidia-uvm: block_copy_push called
+[ 4215.296333] nvidia-uvm: block_copy_push copy state [1:13a00000] -> [0:0]
+[ 4215.296333] nvidia-uvm: uvm_hal_volta_ce_memcopy from 13a0f000 to 194c6f000
+[ 4215.296334] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88454760] [next 88455480] on gpu [1:1]
+[ 4215.296404] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.296405] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.296406] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88455552] [next 88455552] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.296407] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002b984 to 6837900
+[ 4215.296408] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88455552] [next 88455572] on gpu [1:1]
+[ 4215.296582] nvidia-uvm: uvm_release
+[ 4215.296583] nvidia-uvm: uvm_mm_release
+[ 4215.302618] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302619] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302620] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88455708] [next 88455708] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302628] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302629] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302630] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88455852] [next 88455852] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302636] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302637] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302638] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88455996] [next 88455996] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302643] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302644] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302645] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88456140] [next 88456140] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302650] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302651] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302652] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88456284] [next 88456284] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302658] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302659] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302659] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88456428] [next 88456428] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302665] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.302666] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.302667] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88456572] [next 88456572] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.302667] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002bd80 to 6804200
+[ 4215.302668] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88456572] [next 88456592] on gpu [1:1]
+[ 4215.302674] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302675] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302676] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88456728] [next 88456728] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302681] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.302682] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.302683] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88456924] [next 88456924] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.302683] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002bee0 to 6804200
+[ 4215.302684] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88456924] [next 88456944] on gpu [1:1]
+[ 4215.302690] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302691] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302691] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88457080] [next 88457080] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302697] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302698] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302698] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88457224] [next 88457224] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302704] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302705] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302705] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88457368] [next 88457368] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.302710] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.302711] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.302712] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88457512] [next 88457512] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.302713] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c12c to 6804210
+[ 4215.302713] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88457512] [next 88457532] on gpu [1:1]
+[ 4215.302721] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_gpu_replayable_faults.c, function: push_replay_on_gpu, line: 500, format: Replaying faults
+[ 4215.302722] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_gpu_replayable_faults.c, function: push_replay_on_gpu, line: 500, format: Replaying faults
+[ 4215.302722] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88457668] [next 88457668] on gpu [1:1] format:Replaying faults
+[ 4215.303277] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_gpu_replayable_faults.c, function: push_replay_on_gpu, line: 500, format: Replaying faults
+[ 4215.303277] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_gpu_replayable_faults.c, function: push_replay_on_gpu, line: 500, format: Replaying faults
+[ 4215.303278] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88457712] [next 88457712] on gpu [1:1] format:Replaying faults
+[ 4215.315131] nvidia-uvm: uvm_release
+[ 4215.315134] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315135] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315136] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88457756] [next 88457756] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315143] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315144] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315145] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88457900] [next 88457900] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315151] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315152] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315152] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88458044] [next 88458044] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315153] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c340 to 6804010
+[ 4215.315154] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88458044] [next 88458064] on gpu [1:1]
+[ 4215.315160] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315161] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315162] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88458200] [next 88458200] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315167] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315168] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315169] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88458344] [next 88458344] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315179] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315180] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315181] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88459684] [next 88459684] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315182] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002c9a8 to 6804030
+[ 4215.315182] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88459684] [next 88459704] on gpu [1:1]
+[ 4215.315184] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315185] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315186] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88459840] [next 88459840] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315186] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002ca44 to 6804040
+[ 4215.315187] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88459840] [next 88459860] on gpu [1:1]
+[ 4215.315189] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315190] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315190] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88459996] [next 88459996] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315191] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cae0 to 6804050
+[ 4215.315191] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88459996] [next 88460016] on gpu [1:1]
+[ 4215.315193] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315194] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315195] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88460152] [next 88460152] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315195] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cb7c to 6804060
+[ 4215.315196] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88460152] [next 88460172] on gpu [1:1]
+[ 4215.315197] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315198] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315199] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88460308] [next 88460308] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315199] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cc18 to 6804070
+[ 4215.315200] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88460308] [next 88460328] on gpu [1:1]
+[ 4215.315202] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315203] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315203] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88460464] [next 88460464] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315204] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002ccb4 to 6804080
+[ 4215.315204] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88460464] [next 88460484] on gpu [1:1]
+[ 4215.315206] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315207] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315208] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88460620] [next 88460620] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315208] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cd50 to 6804090
+[ 4215.315209] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88460620] [next 88460640] on gpu [1:1]
+[ 4215.315211] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315211] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315212] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88460776] [next 88460776] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315213] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cdec to 68040a0
+[ 4215.315213] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88460776] [next 88460796] on gpu [1:1]
+[ 4215.315215] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315216] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315216] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88460932] [next 88460932] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315217] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002ce88 to 68040b0
+[ 4215.315217] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88460932] [next 88460952] on gpu [1:1]
+[ 4215.315219] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315220] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315220] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88461088] [next 88461088] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315221] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cf24 to 68040c0
+[ 4215.315222] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88461088] [next 88461108] on gpu [1:1]
+[ 4215.315223] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315224] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315225] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88461244] [next 88461244] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315225] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002cfc0 to 68040d0
+[ 4215.315226] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88461244] [next 88461264] on gpu [1:1]
+[ 4215.315228] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315228] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315229] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88461400] [next 88461400] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315229] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d05c to 68040e0
+[ 4215.315230] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88461400] [next 88461420] on gpu [1:1]
+[ 4215.315232] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315233] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315233] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88461556] [next 88461556] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315234] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d0f8 to 68040f0
+[ 4215.315234] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88461556] [next 88461576] on gpu [1:1]
+[ 4215.315236] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315237] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315237] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88461712] [next 88461712] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315238] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d194 to 6804100
+[ 4215.315238] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88461712] [next 88461732] on gpu [1:1]
+[ 4215.315240] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315241] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315242] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88461868] [next 88461868] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315242] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d230 to 6804110
+[ 4215.315243] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88461868] [next 88461888] on gpu [1:1]
+[ 4215.315244] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315245] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315246] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88462024] [next 88462024] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315246] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d2cc to 6804120
+[ 4215.315247] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88462024] [next 88462044] on gpu [1:1]
+[ 4215.315249] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315250] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315250] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88462180] [next 88462180] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315251] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d368 to 6804130
+[ 4215.315251] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88462180] [next 88462200] on gpu [1:1]
+[ 4215.315253] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315254] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315254] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88462336] [next 88462336] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315255] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d404 to 6804140
+[ 4215.315256] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88462336] [next 88462356] on gpu [1:1]
+[ 4215.315257] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315258] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315259] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88462492] [next 88462492] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315259] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d4a0 to 6804150
+[ 4215.315260] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88462492] [next 88462512] on gpu [1:1]
+[ 4215.315262] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315262] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315263] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88462648] [next 88462648] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315264] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d53c to 6804160
+[ 4215.315264] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88462648] [next 88462668] on gpu [1:1]
+[ 4215.315266] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315267] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315267] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88462804] [next 88462804] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315268] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d5d8 to 6804170
+[ 4215.315268] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88462804] [next 88462824] on gpu [1:1]
+[ 4215.315270] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315271] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315272] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88462960] [next 88462960] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315272] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d674 to 6804180
+[ 4215.315273] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88462960] [next 88462980] on gpu [1:1]
+[ 4215.315276] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315276] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315277] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88463116] [next 88463116] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315278] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d710 to 6804190
+[ 4215.315278] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88463116] [next 88463136] on gpu [1:1]
+[ 4215.315280] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315281] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315281] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88463272] [next 88463272] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315282] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d7ac to 68041a0
+[ 4215.315282] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88463272] [next 88463292] on gpu [1:1]
+[ 4215.315289] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315290] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315290] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88463428] [next 88463428] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315296] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315297] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315298] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88463572] [next 88463572] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315298] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002d8d8 to 6804230
+[ 4215.315299] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88463572] [next 88463592] on gpu [1:1]
+[ 4215.315305] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315306] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315306] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88463728] [next 88463728] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315312] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315313] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315313] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88463872] [next 88463872] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315314] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002da04 to 6804240
+[ 4215.315314] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88463872] [next 88463892] on gpu [1:1]
+[ 4215.315323] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315324] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315325] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88464028] [next 88464028] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315330] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315331] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315332] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88464172] [next 88464172] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315332] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002db30 to 6804250
+[ 4215.315333] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88464172] [next 88464192] on gpu [1:1]
+[ 4215.315339] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315340] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315341] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88464328] [next 88464328] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315346] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315347] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315348] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88464472] [next 88464472] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315348] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002dc5c to 6829000
+[ 4215.315349] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88464472] [next 88464492] on gpu [1:1]
+[ 4215.315402] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315402] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315403] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88464784] [next 88464784] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315409] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315410] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315411] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88464928] [next 88464928] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315411] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002de24 to 6804260
+[ 4215.315412] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88464928] [next 88464948] on gpu [1:1]
+[ 4215.315418] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315419] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315419] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88465084] [next 88465084] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315425] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315426] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315427] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88465228] [next 88465228] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315432] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315433] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315434] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88465372] [next 88465372] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315434] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002dfe0 to 6804280
+[ 4215.315435] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88465372] [next 88465392] on gpu [1:1]
+[ 4215.315441] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315442] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315442] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88465528] [next 88465528] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315448] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315449] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315450] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88465672] [next 88465672] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315450] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002e10c to 6804290
+[ 4215.315451] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88465672] [next 88465692] on gpu [1:1]
+[ 4215.315457] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315458] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315459] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88465932] [next 88465932] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315465] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315466] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315466] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88466076] [next 88466076] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315472] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315472] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315473] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88466220] [next 88466220] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315479] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315480] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315481] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88466416] [next 88466416] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315486] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315487] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315488] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88466560] [next 88466560] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315494] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315495] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315495] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88466704] [next 88466704] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315501] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315501] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315502] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88466848] [next 88466848] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315508] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315509] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315510] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88466992] [next 88466992] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315515] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315516] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315517] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88467136] [next 88467136] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315522] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315523] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315524] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88467280] [next 88467280] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315530] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315531] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315531] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88467424] [next 88467424] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315532] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002e7e4 to 6809b20
+[ 4215.315532] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88467424] [next 88467444] on gpu [1:1]
+[ 4215.315538] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315539] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315540] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88467580] [next 88467580] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315545] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315546] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315547] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88467724] [next 88467724] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315547] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002e910 to 6809b30
+[ 4215.315548] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88467724] [next 88467744] on gpu [1:1]
+[ 4215.315554] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315555] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315555] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88467880] [next 88467880] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315561] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315562] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315562] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88468024] [next 88468024] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315563] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002ea3c to 6809b40
+[ 4215.315563] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88468024] [next 88468044] on gpu [1:1]
+[ 4215.315569] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315570] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315571] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88468180] [next 88468180] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315577] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315578] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315578] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88468324] [next 88468324] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315583] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315584] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315585] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88468448] [next 88468448] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315585] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002ebe4 to 6809b60
+[ 4215.315586] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88468448] [next 88468468] on gpu [1:1]
+[ 4215.315592] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315592] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315593] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88468604] [next 88468604] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315599] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315600] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315601] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88468748] [next 88468748] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315606] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315607] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315608] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88468892] [next 88468892] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315608] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002eda0 to 6809b80
+[ 4215.315609] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88468892] [next 88468912] on gpu [1:1]
+[ 4215.315615] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315615] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315616] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88469048] [next 88469048] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315622] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315623] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315623] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88469192] [next 88469192] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315624] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002eecc to 6809b90
+[ 4215.315624] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88469192] [next 88469212] on gpu [1:1]
+[ 4215.315631] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315631] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315632] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88469348] [next 88469348] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315638] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315639] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315639] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88469544] [next 88469544] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315640] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002f02c to 6809ba0
+[ 4215.315640] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88469544] [next 88469564] on gpu [1:1]
+[ 4215.315642] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315643] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315644] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88469700] [next 88469700] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.315644] nvidia-uvm: uvm_hal_volta_ce_memcopy from 12002f0c8 to 6809bb0
+[ 4215.315645] nvidia-uvm: uvm_hal_volta_ce_memcopy push [begin 88469700] [next 88469720] on gpu [1:1]
+[ 4215.315651] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315651] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_table_range_vec_clear_ptes_gpu, line: 1831, format: Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315652] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88469856] [next 88469856] on gpu [1:1] format:Clearing PTEs for [0x%llx, 0x%llx)
+[ 4215.315658] nvidia-uvm: __uvm_push_begin_acquire_with_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315658] nvidia-uvm: push_fill_info filename: /home/sslee/open-gpu-kernel-modules-mind/kernel-open/nvidia-uvm/uvm_mmu.c, function: uvm_page_tree_put_ptes_async, line: 1103, format: put ptes: start: %u, count: %u
+[ 4215.315659] nvidia-uvm: push_begin_acquire_with_info after push_fill_info push     [begin 88470000] [next 88470000] on gpu [1:1] format:put ptes: start: %u, count: %u
+[ 4215.463150] NVRM serverFreeResourceTree: hObject 0x0 not found for client 0xc1e0006d
