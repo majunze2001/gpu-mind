@@ -19,6 +19,7 @@
 [301961.067748] nvidia-uvm: block_copy_resident_pages dst_id:0.
 --------------------------- end for loop ---------------------
 --------------------------- kernel function ---------------------
+[service_fault_batch_block_locked]
 [301961.067887] nvidia-uvm: uvm_va_block_select_residency processor_id: 1
 [301961.067890] nvidia-uvm: uvm_va_block_select_residency return id: 1
 [301961.067893] nvidia-uvm: uvm_va_block_service_locked processor_id: 1, block: [7f9b9a000000-7f9b9a1fffff].

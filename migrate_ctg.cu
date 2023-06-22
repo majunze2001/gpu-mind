@@ -40,14 +40,20 @@ main(void)
 	// Correctness verification, comment out for shorter trace output
 	// a migration from GPU back to CPU
 	// Check for errors (all values should be 2i)
-	for (int i = 0; i < N; i++)
-	{
-		if (data[i] != 2 * i)
-		{
-			std::cout << "Error: data[" << i << "] = " << data[i] << "\n";
-			return -1;
-		}
-	}
+	// for (int i = 0; i < N; i++)
+	// {
+	// 	if (data[i] != 2 * i)
+	// 	{
+	// 		std::cout << "Error: data[" << i << "] = " << data[i] << "\n";
+	// 		return -1;
+	// 	}
+	// }
+
+	// // Launch kernel, this should pagefault, causing a page migration from CPU to GPU
+	// kernel<<<blocksPerGrid, threadsPerBlock>>>(data, N);
+
+	// // Wait for GPU to finish before accessing on host
+	// cudaDeviceSynchronize();
 	
 	std::cout << "Done!\n";
 

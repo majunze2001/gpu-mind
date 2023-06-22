@@ -1,21 +1,45 @@
-[281120.833703] nvidia-uvm: uvm_open is called.
-[281120.833712] nvidia-uvm: uvm_open is called.
-[281123.317525] nvidia-uvm: uvm_va_space_cpu_fault: 7f8a16000000
-[281123.317528] nvidia-uvm: uvm_va_block_create: [7f8a16000000-7f8a161fffff]
-[281123.317539] nvidia-uvm: uvm_va_block_cpu_fault: 7f8a16000000. block [7f8a16000000-7f8a161fffff]
-[281123.317541] nvidia-uvm: block_cpu_fault_locked: 7f8a16000000. block [7f8a16000000-7f8a161fffff]
-[281123.317543] nvidia-uvm: uvm_va_block_select_residency processor_id: 0
-[281123.317545] nvidia-uvm: uvm_va_block_select_residency return id: 0
-[281123.317546] nvidia-uvm: uvm_va_block_service_locked processor_id: 0, block: [7f8a16000000-7f8a161fffff].
-[281123.317553] nvidia-uvm: uvm_va_block_service_copy processor_id:0, new_residency:0 
-[281123.317554] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:0 block [7f8a16000000-7f8a161fffff].
-[281123.317664] nvidia-uvm: block_copy_resident_pages dst_id:0.
-[281123.317804] nvidia-uvm: uvm_va_block_select_residency processor_id: 1
-[281123.317807] nvidia-uvm: uvm_va_block_select_residency return id: 1
-[281123.317809] nvidia-uvm: uvm_va_block_service_locked processor_id: 1, block: [7f8a16000000-7f8a161fffff].
-[281123.317816] nvidia-uvm: uvm_va_block_service_copy processor_id:1, new_residency:1 
-[281123.317817] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:1 block [7f8a16000000-7f8a161fffff].
-[281123.318067] nvidia-uvm: block_copy_resident_pages dst_id:1.
-[281123.318069] nvidia-uvm: for_each_closest_id: src_id=0, dst_id=1
-[281123.318071] nvidia-uvm: block_copy_resident_pages_between: from 0 to 1.
-[281123.531321] NVRM serverFreeResourceTree: hObject 0x0 not found for client 0xc1e00013
+[ 2460.914302] nvidia-uvm: uvm_open is called from 8755: ctg.o.
+[ 2460.914350] nvidia-uvm: uvm_open is called from 8755: ctg.o.
+[ 2460.914374] nvidia-uvm: uvm_api_initialize
+[ 2460.914477] nvidia-uvm: uvm_api_mm_initialize
+[ 2460.914494] nvidia-uvm: uvm_api_pageable_mem_access
+[ 2464.028499] nvidia-uvm: uvm_mmap
+[ 2464.160398] nvidia-uvm: uvm_mmap
+[ 2464.160495] nvidia-uvm: uvm_vm_fault
+[ 2464.160503] nvidia-uvm: uvm_va_space_cpu_fault: 7f2f38000000
+[ 2464.160516] nvidia-uvm: uvm_va_block_create: [7f2f38000000-7f2f381fffff]
+[ 2464.160527] nvidia-uvm: uvm_va_block_cpu_fault: 7f2f38000000. block [7f2f38000000-7f2f381fffff]
+[ 2464.160536] nvidia-uvm: block_cpu_fault_locked: 7f2f38000000. block [7f2f38000000-7f2f381fffff]
+[ 2464.160548] nvidia-uvm: uvm_va_block_select_residency processor_id: 0
+[ 2464.160556] nvidia-uvm: uvm_va_block_select_residency return id: 0
+[ 2464.160564] nvidia-uvm: uvm_va_block_service_locked processor_id: 0, block: [7f2f38000000-7f2f381fffff].
+[ 2464.160598] nvidia-uvm: uvm_va_block_service_copy processor_id:0, new_residency:0 
+[ 2464.160605] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:0 block [7f2f38000000-7f2f381fffff].
+[ 2464.160741] nvidia-uvm: block_copy_resident_pages dst_id:0.
+[ 2464.161181] nvidia-uvm: service_fault_batch_block_locked called
+[ 2464.161197] nvidia-uvm: uvm_va_block_select_residency processor_id: 1
+[ 2464.161207] nvidia-uvm: uvm_va_block_select_residency return id: 1
+[ 2464.161215] nvidia-uvm: uvm_va_block_service_locked processor_id: 1, block: [7f2f38000000-7f2f381fffff].
+[ 2464.161249] nvidia-uvm: uvm_va_block_service_copy processor_id:1, new_residency:1 
+[ 2464.161257] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:1 block [7f2f38000000-7f2f381fffff].
+[ 2464.161734] nvidia-uvm: block_copy_resident_pages dst_id:1.
+[ 2464.161743] nvidia-uvm: for_each_closest_id: src_id=0, dst_id=1
+[ 2464.161751] nvidia-uvm: block_copy_resident_pages_between: from 0 to 1.
+[ 2464.161761] nvidia-uvm: block_copy_begin_push called
+[ 2464.162161] nvidia-uvm: uvm_vm_fault
+[ 2464.162170] nvidia-uvm: uvm_va_space_cpu_fault: 7f2f38000000
+[ 2464.162183] nvidia-uvm: uvm_va_block_cpu_fault: 7f2f38000000. block [7f2f38000000-7f2f381fffff]
+[ 2464.162192] nvidia-uvm: block_cpu_fault_locked: 7f2f38000000. block [7f2f38000000-7f2f381fffff]
+[ 2464.162204] nvidia-uvm: uvm_va_block_select_residency processor_id: 0
+[ 2464.162212] nvidia-uvm: uvm_va_block_select_residency return id: 0
+[ 2464.162220] nvidia-uvm: uvm_va_block_service_locked processor_id: 0, block: [7f2f38000000-7f2f381fffff].
+[ 2464.162253] nvidia-uvm: uvm_va_block_service_copy processor_id:0, new_residency:0 
+[ 2464.162261] nvidia-uvm: uvm_va_block_make_resident_copy dest_id:0 block [7f2f38000000-7f2f381fffff].
+[ 2464.162318] nvidia-uvm: block_copy_resident_pages dst_id:0.
+[ 2464.162327] nvidia-uvm: for_each_closest_id: src_id=1, dst_id=0
+[ 2464.162336] nvidia-uvm: block_copy_resident_pages_between: from 1 to 0.
+[ 2464.162347] nvidia-uvm: block_copy_begin_push called
+[ 2464.164310] nvidia-uvm: uvm_release
+[ 2464.164321] nvidia-uvm: uvm_mm_release
+[ 2464.249213] nvidia-uvm: uvm_release
+[ 2464.590589] NVRM serverFreeResourceTree: hObject 0x0 not found for client 0xc1e0008b
